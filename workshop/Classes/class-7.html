@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Class 7 : Python : Basics &mdash; Genome Informatics Workshop 0.1 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Genome Informatics Workshop 0.1 documentation" href="../index.html"/>
+        <link rel="up" title="Class list" href="../Classes.html"/>
+        <link rel="next" title="Class 8 : Python : Basics (2)" href="class-8.html"/>
+        <link rel="prev" title="Class 6 : Working in a cluster environment (part 2)" href="class-6.html"/> 
+
+<!-- Google Analytics tracking code -->
+<!--        DO NOT REMOVE           -->
+<!--           JRH                  -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47837611-1', 'ucd-bioworkshop.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> Genome Informatics Workshop</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Syllabus.html">Syllabus (MOLB FIXME)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Classes.html">Class list</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="class-1.html">Class 1 : Virtual Machine (VM) and Linux Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-2.html">Class 2 : The command-line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-3.html">Class 3 : The command-line (part 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-4.html">Class 4 : awk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-5.html">Class 5 : Working in a cluster environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-6.html">Class 6 : Working in a cluster environment (part 2)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Class 7 : Python : Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-8.html">Class 8 : Python : Basics (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-9.html">Class 9 : Python Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-10.html">Class 10 : Applied Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-11.html">Class 11 : Python Idioms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-12.html">Class 12 : The ENCODE Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-13.html">Class 13 : BEDtools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-14.html">Class 14 : ChIP-seq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-15.html">Class 15 : ChIP-seq / DNase I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-16.html">Class 16: Genomic Analysis Vignettes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-17.html">Class 17 : Bash and Bam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-18.html">Class 18 : R : Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-19.html">Class 19 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-20.html">Class 20 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-21.html">Class 21 : R : DataFrames &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-22.html">Class 22 : R : Data Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-23.html">Class 23 : RNA-Seq I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-24.html">Class 24 : RNA-Seq II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-25.html">Class 25 : Exome-Seq - Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-26.html">Class 26 : Exome-Seq - Variants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Problem_Sets.html">Problem Sets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_1/problem_set_1.html">Problem Set 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_2/problem_set_2.html">Problem Set 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_3/problem_set_3.html">Problem Set 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_4/problem_set_4.html">Problem Set 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_5/problem_set_5.html">Problem Set 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_6/problem_set_6.html">Problem Set 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/Problem_Set_Keys.html">Problem Set : KEYS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Miscellaneous.html">Miscellaneous</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../misc/commands.html">Reference: list of commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/data.html">Sample Data files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/tips.html">Programming Tips &amp; Tricks</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Genome Informatics Workshop</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../Classes.html">Class list</a> &raquo;</li>
+      
+    <li>Class 7 : Python : Basics</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="../_sources/Classes/class-7.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="class-7-python-basics">
+<h1>Class 7 : Python : Basics<a class="headerlink" href="#class-7-python-basics" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#class-7-python-basics" title="Slides">§</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Class date:</th><td class="field-body">Monday 10 February 2014</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#goals" title="Slides">§</a></h2>
+<ol class="arabic simple">
+<li>Learn the basics of python syntax</li>
+<li>Learn to start ipython</li>
+<li>Learn basic types in python</li>
+<li>Write simple python scripts</li>
+</ol>
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#overview" title="Slides">§</a></h2>
+<p>Python is a popular programming language that is commonly used for
+bioinformatics. We will use it to process and filter files. When you can&#8217;t
+write a simple script in <tt class="docutils literal"><span class="pre">awk</span></tt>, it is better to use python.</p>
+<p>The Python documentation <a class="footnote-reference" href="#id2" id="id1">[1]</a> is very helpful, with lots of examples. You
+should read it to become familiar with the language and refer to it when
+you get stuck.</p>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>Python 2.x docs <a class="reference external" href="http://docs.python.org/2/">http://docs.python.org/2/</a></td></tr>
+</tbody>
+</table>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last"><strong>You should begin the Python tutorial</strong> <a class="footnote-reference" href="#id4" id="id3">[2]</a>. We will cover some language
+specifics of Python, but will quickly move to using Python  in the
+context of bioinformatic applications.</p>
+</div>
+<table class="docutils footnote" frame="void" id="id4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[2]</a></td><td>Learn Python the Hard Way
+<a class="reference external" href="http://learnpythonthehardway.org/book/">http://learnpythonthehardway.org/book/</a></td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ipython">
+<h2>IPython<a class="headerlink" href="#ipython" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#ipython" title="Slides">§</a></h2>
+<p>Ipython is an (I)nteractive python terminal that lets you
+type in python expressions and see the results immediately</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>ipython
+</pre></div>
+</div>
+<p>This command puts you in a shell that accepts python commands, much like
+the login terminal accepts <tt class="docutils literal"><span class="pre">bash</span></tt> commands.</p>
+</div>
+<div class="section" id="python-indentation">
+<h2>Python indentation<a class="headerlink" href="#python-indentation" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#python-indentation" title="Slides">§</a></h2>
+<p>Python depends on proper indentation of your code. This does not work:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+<span class="k">print</span> <span class="n">i</span>
+</pre></div>
+</div>
+<p>Instead you have to indent the <tt class="docutils literal"><span class="pre">print</span></tt> statement to nest it in the for
+loop:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+    <span class="k">print</span> <span class="n">i</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Use spaces instead of <em>tab</em> characters for indentation.</p>
+<p class="last">Update your gedit preferences: <cite>Edit -&gt; Preferences</cite>,
+check the <cite>Insert spaces instead of tabs</cite> box.</p>
+</div>
+</div>
+<div class="section" id="python-help">
+<h2>Python Help<a class="headerlink" href="#python-help" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#python-help" title="Slides">§</a></h2>
+<p>You can find more about any python type or function using <tt class="docutils literal"><span class="pre">pydoc</span></tt>:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="c"># learn about the python ``string`` type</span>
+<span class="nv">$ </span>pydoc str
+</pre></div>
+</div>
+<p>At the <tt class="docutils literal"><span class="pre">ipython</span></tt> prompt, you can also use:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="gp">In [1]: </span><span class="nb">str</span><span class="err">?</span>
+</pre></div>
+</div>
+<p>In these slides, links will take you to the python docs: <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a></p>
+<p>Finally, ask Google (e.g. python string split).</p>
+</div>
+<div class="section" id="for-loops-iteration">
+<h2>For Loops (iteration)<a class="headerlink" href="#for-loops-iteration" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#for-loops-iteration" title="Slides">§</a></h2>
+<p>Many things in python are <strong>iterable</strong>, meaning we can write loops over
+them. For example, a string is iterable:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="gp">In [2]: </span><span class="n">sentence</span> <span class="o">=</span> <span class="s">&#39;i LOVE programming&#39;</span>
+
+<span class="gp">In [3]: </span><span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">:</span>
+<span class="gp">   ...: </span>    <span class="k">print</span> <span class="n">char</span>
+<span class="gp">   ...: </span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="for-loops-range">
+<h2>For Loops (range)<a class="headerlink" href="#for-loops-range" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#for-loops-range" title="Slides">§</a></h2>
+<p>Automate repetitive tasks with a for loop:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="go"># Print &quot;hello&quot; 5 times:</span>
+<span class="gp">In [4]: </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+<span class="gp">   ...: </span>    <span class="k">print</span> <span class="s">&quot;hello&quot;</span>
+<span class="gp">   ...: </span>
+
+<span class="go"># now print the numbers</span>
+<span class="gp">In [5]: </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+<span class="gp">   ...: </span>    <span class="k">print</span> <span class="n">i</span>
+<span class="gp">   ...: </span>
+</pre></div>
+</div>
+<p>where the <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#range" title="(in Python v2.7)"><tt class="xref py py-func docutils literal"><span class="pre">range()</span></tt></a> function generates the numbers <cite>0, 1, 2, 3, 4</cite>.</p>
+</div>
+<div class="section" id="python-types">
+<h2>Python Types<a class="headerlink" href="#python-types" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#python-types" title="Slides">§</a></h2>
+<p>There are several core types in Python that you will use a lot.</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> is a collection of characters (words and sentences).</li>
+<li><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a> and <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a> are numbers.</li>
+<li><a class="reference external" href="http://docs.python.org/2.7/library/functions.html#list" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">list</span></tt></a> is a group of other objects.</li>
+<li><a class="reference external" href="http://docs.python.org/2.7/library/stdtypes.html#dict" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">dict</span></tt></a> contains key:value mappings.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="strings">
+<h2>Strings<a class="headerlink" href="#strings" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#strings" title="Slides">§</a></h2>
+<p>A <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#str" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">str</span></tt></a> is a collection of characters. You can make strings with
+single, double and triple quotes.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="gp">In [6]: </span><span class="n">phrase</span> <span class="o">=</span> <span class="s">&#39;this that other&#39;</span>
+
+<span class="gp">In [7]: </span><span class="n">phrase</span>
+
+<span class="go"># uppercase</span>
+<span class="gp">In [8]: </span><span class="n">phrase</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+
+<span class="go"># number of characters (including spaces) in phrase</span>
+<span class="gp">In [9]: </span><span class="nb">len</span><span class="p">(</span><span class="n">phrase</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="numbers-ints-and-math">
+<h2>Numbers (Ints and math)<a class="headerlink" href="#numbers-ints-and-math" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#numbers-ints-and-math" title="Slides">§</a></h2>
+<p>Python has integer numbers (<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#int" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">int</span></tt></a>) and floating point numbers
+(<a class="reference external" href="http://docs.python.org/2.7/library/functions.html#float" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">float</span></tt></a>). Math operations work within and across both types:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="go"># set up some ints</span>
+<span class="gp">In [10]: </span><span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="gp">In [11]: </span><span class="n">y</span> <span class="o">=</span> <span class="mi">100</span>
+
+<span class="gp">In [12]: </span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="go"># add</span>
+<span class="gp">In [13]: </span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+
+<span class="go"># subtract</span>
+<span class="gp">In [14]: </span><span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
+
+<span class="go"># x * y</span>
+<span class="gp">In [15]: </span><span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="numbers-float-division">
+<h2>Numbers (Float division)<a class="headerlink" href="#numbers-float-division" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#numbers-float-division" title="Slides">§</a></h2>
+<p>For division you need to pay attention to <tt class="docutils literal"><span class="pre">type</span></tt>:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="go"># try to divide the ints ...</span>
+<span class="gp">In [16]: </span><span class="n">x</span> <span class="o">/</span> <span class="n">y</span>
+
+<span class="go"># need float conversion!</span>
+<span class="gp">In [17]: </span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+
+<span class="go"># make floats directly and divide</span>
+<span class="gp">In [18]: </span><span class="n">x</span> <span class="o">=</span> <span class="mf">10.0</span>
+
+<span class="gp">In [19]: </span><span class="n">y</span> <span class="o">=</span> <span class="mf">100.0</span>
+
+<span class="gp">In [20]: </span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="gp">In [21]: </span><span class="n">x</span> <span class="o">/</span> <span class="n">y</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="lists">
+<h2>Lists<a class="headerlink" href="#lists" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#lists" title="Slides">§</a></h2>
+<p>A <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#list" title="(in Python v2.7)"><tt class="xref py py-obj docutils literal"><span class="pre">list</span></tt></a> is a collection of other objects. You create lists
+directly using brackets (<tt class="docutils literal"><span class="pre">[</span> <span class="pre">]</span></tt>), or they can be created from other
+objects.</p>
+<p>Lists are <em>subscriptable</em>, meaning that you can access items in a list by
+position.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="go"># convert to list, str.split() defaults to space</span>
+<span class="gp">In [22]: </span><span class="n">words</span> <span class="o">=</span> <span class="n">phrase</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+
+<span class="go"># number of items in list</span>
+<span class="gp">In [23]: </span><span class="nb">len</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+
+<span class="go"># two ways to add new words</span>
+<span class="gp">In [24]: </span><span class="n">words</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s">&#39;foo&#39;</span><span class="p">)</span>
+
+<span class="gp">In [25]: </span><span class="n">words</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s">&#39;bar&#39;</span><span class="p">,</span><span class="s">&#39;baz&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="lists-2">
+<h2>Lists (2)<a class="headerlink" href="#lists-2" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#lists-2" title="Slides">§</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="go"># first item only, zero-based</span>
+<span class="gp">In [26]: </span><span class="n">words</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="go"># first through third, start is implicit</span>
+<span class="gp">In [27]: </span><span class="n">words</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="go"># iterate over the list</span>
+<span class="gp">In [28]: </span><span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+<span class="gp">   ....: </span>    <span class="k">print</span> <span class="n">word</span><span class="o">.</span><span class="n">capitalize</span><span class="p">()</span>
+<span class="gp">   ....: </span>
+
+<span class="go"># mix types in lists</span>
+<span class="gp">In [29]: </span><span class="n">words</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+
+<span class="go"># a &quot;list comprehension&quot;</span>
+<span class="gp">In [30]: </span><span class="p">[</span><span class="nb">type</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">words</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="python-exceptions">
+<h2>Python Exceptions<a class="headerlink" href="#python-exceptions" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#python-exceptions" title="Slides">§</a></h2>
+<p>When you&#8217;re learning to program in Python, you will see lots of errors.
+Examples: <a class="reference external" href="http://docs.python.org/2.7/library/exceptions.html#exceptions.ValueError" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">ValueError</span></tt></a>,
+<a class="reference external" href="http://docs.python.org/2.7/library/exceptions.html#exceptions.IndexError" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">IndexError</span></tt></a> and <a class="reference external" href="http://docs.python.org/2.7/library/exceptions.html#exceptions.KeyError" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">KeyError</span></tt></a></p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="gp">In [31]: </span><span class="nb">int</span><span class="p">(</span><span class="s">&#39;blah&#39;</span><span class="p">)</span>
+
+<span class="gp">In [32]: </span><span class="n">words</span><span class="p">[</span><span class="mi">100</span><span class="p">]</span>
+
+<span class="gp">In [33]: </span><span class="n">parts</span> <span class="o">=</span> <span class="p">{</span><span class="s">&#39;hip&#39;</span><span class="p">:</span><span class="s">&#39;thigh&#39;</span><span class="p">}</span>
+
+<span class="gp">In [34]: </span><span class="n">parts</span><span class="p">[</span><span class="s">&#39;nose&#39;</span><span class="p">]</span>
+
+<span class="go"># Catch errors, print useful debugging messages</span>
+<span class="gp">In [35]: </span><span class="k">try</span><span class="p">:</span>
+<span class="gp">   ....: </span>    <span class="n">nums</span><span class="p">[</span><span class="mi">100</span><span class="p">]</span>
+<span class="gp">   ....: </span><span class="k">except</span> <span class="ne">IndexError</span><span class="p">:</span>
+<span class="gp">   ....: </span>    <span class="k">print</span> <span class="s">&quot;error: not enough nums&quot;</span>
+<span class="gp">   ....: </span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="reading-data-from-a-file">
+<h2>Reading data from a file<a class="headerlink" href="#reading-data-from-a-file" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#reading-data-from-a-file" title="Slides">§</a></h2>
+<p>Now we&#8217;ll read some data from a file and operate on each line:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="gp">In [36]: </span><span class="n">filename</span> <span class="o">=</span> <span class="s">&#39;/opt/bio-workshop/data/lamina.bed&#39;</span>
+
+<span class="go"># What is the BUG in this block?</span>
+<span class="gp">In [37]: </span><span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+<span class="gp">   ....: </span>    <span class="n">fields</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\t</span><span class="s">&#39;</span><span class="p">)</span>
+<span class="gp">   ....: </span>    <span class="n">start</span> <span class="o">=</span> <span class="n">fields</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gp">   ....: </span>    <span class="k">if</span> <span class="n">start</span> <span class="o">&gt;</span> <span class="mi">5000</span><span class="p">:</span>
+<span class="gp">   ....: </span>        <span class="k">print</span> <span class="n">fields</span>
+<span class="gp">   ....: </span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="in-class-exercises-1">
+<h2>In Class Exercises (1)<a class="headerlink" href="#in-class-exercises-1" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#in-class-exercises-1" title="Slides">§</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Use <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#range" title="(in Python v2.7)"><tt class="xref py py-func docutils literal"><span class="pre">range()</span></tt></a> to count from 0 to 100 <strong>by 10</strong>. How do you get
+100 in the result?</li>
+<li>Get <strong>every other</strong> value of <tt class="docutils literal"><span class="pre">words</span></tt> (hint: use a slice)</li>
+<li>Use <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#enumerate" title="(in Python v2.7)"><tt class="xref py py-func docutils literal"><span class="pre">enumerate()</span></tt></a> on a list (hint: convert the
+result with list(result))</li>
+<li>Use <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#sorted" title="(in Python v2.7)"><tt class="xref py py-func docutils literal"><span class="pre">sorted()</span></tt></a> and <a class="reference external" href="http://docs.python.org/2.7/library/functions.html#reversed" title="(in Python v2.7)"><tt class="xref py py-func docutils literal"><span class="pre">reversed()</span></tt></a> on a list.</li>
+<li>Do type conversion on each of the fields in the lamina.bed file</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="dictionaries-dicts">
+<h2>Dictionaries (dicts)<a class="headerlink" href="#dictionaries-dicts" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-7.html#dictionaries-dicts" title="Slides">§</a></h2>
+<p>A <a class="reference external" href="http://docs.python.org/2.7/library/stdtypes.html#dict" title="(in Python v2.7)"><tt class="xref py py-class docutils literal"><span class="pre">dict</span></tt></a> contains key:value mappings.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span class="go"># set up new dicts with {}</span>
+<span class="gp">In [38]: </span><span class="n">produce</span>  <span class="o">=</span> <span class="p">{</span><span class="s">&#39;lettuce&#39;</span><span class="p">:</span><span class="s">&#39;green&#39;</span><span class="p">,</span> <span class="s">&#39;apple&#39;</span><span class="p">:</span><span class="s">&#39;red&#39;</span><span class="p">,</span>
+<span class="gp">   ....: </span><span class="s">&#39;banana&#39;</span><span class="p">:</span><span class="s">&#39;yellow&#39;</span><span class="p">}</span>
+<span class="gp">   ....: </span>
+
+<span class="gp">In [39]: </span><span class="n">produce</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+
+<span class="gp">In [40]: </span><span class="n">produce</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+
+<span class="gp">In [41]: </span><span class="n">produce</span><span class="o">.</span><span class="n">items</span><span class="p">()</span>
+
+<span class="go"># sorted by keys</span>
+<span class="gp">In [42]: </span><span class="nb">sorted</span><span class="p">(</span><span class="n">produce</span><span class="o">.</span><span class="n">items</span><span class="p">())</span>
+
+<span class="go"># test for membership</span>
+<span class="gp">In [43]: </span><span class="s">&#39;apple&#39;</span> <span class="ow">in</span> <span class="n">produce</span>
+
+<span class="gp">In [44]: </span><span class="ow">not</span> <span class="s">&#39;orange&#39;</span> <span class="ow">in</span> <span class="n">produce</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="class-8.html" class="btn btn-neutral float-right" title="Class 8 : Python : Basics (2)"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="class-6.html" class="btn btn-neutral" title="Class 6 : Working in a cluster environment (part 2)"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Brent Pedersen, Jay Hesselberth.
+      Last updated on Aug 24, 2014.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

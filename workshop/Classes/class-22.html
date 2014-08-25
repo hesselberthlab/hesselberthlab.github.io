@@ -1,0 +1,329 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Class 22 : R : Data Manipulation &amp; Plotting &mdash; Genome Informatics Workshop 0.1 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Genome Informatics Workshop 0.1 documentation" href="../index.html"/>
+        <link rel="up" title="Class list" href="../Classes.html"/>
+        <link rel="next" title="Class 23 : RNA-Seq I" href="class-23.html"/>
+        <link rel="prev" title="Class 21 : R : DataFrames &amp; Plotting" href="class-21.html"/> 
+
+<!-- Google Analytics tracking code -->
+<!--        DO NOT REMOVE           -->
+<!--           JRH                  -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47837611-1', 'ucd-bioworkshop.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> Genome Informatics Workshop</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Syllabus.html">Syllabus (MOLB FIXME)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Classes.html">Class list</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="class-1.html">Class 1 : Virtual Machine (VM) and Linux Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-2.html">Class 2 : The command-line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-3.html">Class 3 : The command-line (part 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-4.html">Class 4 : awk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-5.html">Class 5 : Working in a cluster environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-6.html">Class 6 : Working in a cluster environment (part 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-7.html">Class 7 : Python : Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-8.html">Class 8 : Python : Basics (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-9.html">Class 9 : Python Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-10.html">Class 10 : Applied Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-11.html">Class 11 : Python Idioms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-12.html">Class 12 : The ENCODE Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-13.html">Class 13 : BEDtools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-14.html">Class 14 : ChIP-seq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-15.html">Class 15 : ChIP-seq / DNase I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-16.html">Class 16: Genomic Analysis Vignettes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-17.html">Class 17 : Bash and Bam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-18.html">Class 18 : R : Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-19.html">Class 19 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-20.html">Class 20 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-21.html">Class 21 : R : DataFrames &amp; Plotting</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Class 22 : R : Data Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-23.html">Class 23 : RNA-Seq I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-24.html">Class 24 : RNA-Seq II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-25.html">Class 25 : Exome-Seq - Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-26.html">Class 26 : Exome-Seq - Variants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Problem_Sets.html">Problem Sets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_1/problem_set_1.html">Problem Set 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_2/problem_set_2.html">Problem Set 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_3/problem_set_3.html">Problem Set 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_4/problem_set_4.html">Problem Set 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_5/problem_set_5.html">Problem Set 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_6/problem_set_6.html">Problem Set 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/Problem_Set_Keys.html">Problem Set : KEYS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Miscellaneous.html">Miscellaneous</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../misc/commands.html">Reference: list of commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/data.html">Sample Data files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/tips.html">Programming Tips &amp; Tricks</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Genome Informatics Workshop</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../Classes.html">Class list</a> &raquo;</li>
+      
+    <li>Class 22 : R : Data Manipulation &amp; Plotting</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="../_sources/Classes/class-22.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="class-22-r-data-manipulation-plotting">
+<h1>Class 22 : R : Data Manipulation &amp; Plotting<a class="headerlink" href="#class-22-r-data-manipulation-plotting" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-22.html#class-22-r-data-manipulation-plotting" title="Slides">§</a></h1>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-22.html#goals" title="Slides">§</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Simple statistics</li>
+<li>ggplot2 manipulations</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="statistics-in-r">
+<h2>Statistics in R<a class="headerlink" href="#statistics-in-r" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-22.html#statistics-in-r" title="Slides">§</a></h2>
+<p>R provides a number of builtin statistics:</p>
+<blockquote>
+<div><ul class="simple">
+<li><tt class="docutils literal"><span class="pre">t.test()</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">fisher.test()</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">wilcox.test()</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">ks.set()</span></tt></li>
+</ul>
+</div></blockquote>
+<p>Each of these functions takes 2 vectors on input, and return a result
+object:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> this <span class="o">&lt;-</span> rnorm<span class="p">(</span><span class="m">100</span><span class="p">)</span>
+<span class="o">&gt;</span> that <span class="o">&lt;-</span> rnorm<span class="p">(</span><span class="m">100</span><span class="p">)</span>
+<span class="o">&gt;</span> result <span class="o">&lt;-</span> t.test<span class="p">(</span>this<span class="p">,</span> that<span class="p">)</span>
+
+<span class="o">&gt;</span> result<span class="o">$</span>p.value
+</pre></div>
+</div>
+<div class="section" id="excercises">
+<h3>Excercises<a class="headerlink" href="#excercises" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-22.html#excercises" title="Slides">§</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Use <tt class="docutils literal"><span class="pre">t.test()</span></tt> determine whether there are significant expression
+differences between in <cite>expr-geno-covs.txt</cite>:<ul>
+<li>conditions</li>
+<li>gender</li>
+</ul>
+</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="ggplot-manipulations">
+<h2>ggplot manipulations<a class="headerlink" href="#ggplot-manipulations" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-22.html#ggplot-manipulations" title="Slides">§</a></h2>
+<p>Once you make a plot that you like, you can save it with:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="c1"># ggsave uses the last plot by default and learns format from the file</span>
+<span class="c1"># suffix</span>
+<span class="o">&gt;</span> ggsave<span class="p">(</span><span class="s">&#39;myplot.pdf&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Often you will have observations of two variables that are both
+continuous data. How can you examine the relationships between these?</p>
+<p>Use <tt class="docutils literal"><span class="pre">geom_boxplot()</span></tt> with the <tt class="docutils literal"><span class="pre">group</span></tt> aesthetic:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="c1"># ``round_any()`` is provided by ``plyr``</span>
+<span class="o">&gt;</span> library<span class="p">(</span>plyr<span class="p">)</span>
+<span class="o">&gt;</span> gp <span class="o">&lt;-</span> ggplot<span class="p">(</span>covs<span class="p">,</span> aes<span class="p">(</span>x <span class="o">=</span> age<span class="p">,</span> y <span class="o">=</span> expression<span class="p">,</span>
+               group <span class="o">=</span> round_any<span class="p">(</span>age<span class="p">,</span> <span class="m">2</span><span class="p">)))</span>
+
+<span class="o">&gt;</span> gp <span class="o">+</span> geom_boxplot<span class="p">()</span>
+</pre></div>
+</div>
+<p>Or you can plot the data and fit a curve or linear model to examine the
+overall relationship:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="c1"># plot a smoothed, possibly curvy, line</span>
+<span class="o">&gt;</span> gp <span class="o">+</span> geom_point<span class="p">()</span> <span class="o">+</span> geom_smooth<span class="p">()</span>
+
+
+<span class="c1"># fit and plot a straight line</span>
+<span class="o">&gt;</span> gp <span class="o">+</span> stat_smooth<span class="p">(</span>method<span class="o">=</span><span class="s">&#39;lm&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="r-model-syntax">
+<h2>R Model Syntax<a class="headerlink" href="#r-model-syntax" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-22.html#r-model-syntax" title="Slides">§</a></h2>
+<p>You can also fit and examine a linear model:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> model <span class="o">&lt;-</span> lm<span class="p">(</span>expression <span class="o">~</span> genotype <span class="o">+</span> condition <span class="o">+</span> gender <span class="p">,</span> data <span class="o">=</span> covs<span class="p">)</span>
+<span class="o">&gt;</span> summary<span class="p">(</span>model<span class="p">)</span>
+
+<span class="c1"># look at diagnostic plots</span>
+<span class="o">&gt;</span> plot<span class="p">(</span>model<span class="p">)</span>
+</pre></div>
+</div>
+<div class="section" id="exercises">
+<h3>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-22.html#exercises" title="Slides">§</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Does adding age to the existing model (expression ~ genotype + condition +
+gender) change the signficance of the other variables?</li>
+<li>How does removing condition from the model affect the significance of
+genotype and vice-versa?</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="class-23.html" class="btn btn-neutral float-right" title="Class 23 : RNA-Seq I"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="class-21.html" class="btn btn-neutral" title="Class 21 : R : DataFrames &amp; Plotting"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Brent Pedersen, Jay Hesselberth.
+      Last updated on Aug 24, 2014.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

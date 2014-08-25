@@ -1,0 +1,406 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Class 19 : R : Manipulation &amp; Plotting &mdash; Genome Informatics Workshop 0.1 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Genome Informatics Workshop 0.1 documentation" href="../index.html"/>
+        <link rel="up" title="Class list" href="../Classes.html"/>
+        <link rel="next" title="Class 20 : R : Manipulation &amp; Plotting" href="class-20.html"/>
+        <link rel="prev" title="Class 18 : R : Getting Started" href="class-18.html"/> 
+
+<!-- Google Analytics tracking code -->
+<!--        DO NOT REMOVE           -->
+<!--           JRH                  -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47837611-1', 'ucd-bioworkshop.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="fa fa-home"> Genome Informatics Workshop</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Syllabus.html">Syllabus (MOLB FIXME)</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Classes.html">Class list</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="class-1.html">Class 1 : Virtual Machine (VM) and Linux Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-2.html">Class 2 : The command-line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-3.html">Class 3 : The command-line (part 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-4.html">Class 4 : awk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-5.html">Class 5 : Working in a cluster environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-6.html">Class 6 : Working in a cluster environment (part 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-7.html">Class 7 : Python : Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-8.html">Class 8 : Python : Basics (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-9.html">Class 9 : Python Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-10.html">Class 10 : Applied Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-11.html">Class 11 : Python Idioms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-12.html">Class 12 : The ENCODE Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-13.html">Class 13 : BEDtools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-14.html">Class 14 : ChIP-seq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-15.html">Class 15 : ChIP-seq / DNase I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-16.html">Class 16: Genomic Analysis Vignettes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-17.html">Class 17 : Bash and Bam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-18.html">Class 18 : R : Getting Started</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Class 19 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-20.html">Class 20 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-21.html">Class 21 : R : DataFrames &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-22.html">Class 22 : R : Data Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-23.html">Class 23 : RNA-Seq I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-24.html">Class 24 : RNA-Seq II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-25.html">Class 25 : Exome-Seq - Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-26.html">Class 26 : Exome-Seq - Variants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Problem_Sets.html">Problem Sets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_1/problem_set_1.html">Problem Set 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_2/problem_set_2.html">Problem Set 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_3/problem_set_3.html">Problem Set 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_4/problem_set_4.html">Problem Set 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_5/problem_set_5.html">Problem Set 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_6/problem_set_6.html">Problem Set 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/Problem_Set_Keys.html">Problem Set : KEYS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Miscellaneous.html">Miscellaneous</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../misc/commands.html">Reference: list of commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/data.html">Sample Data files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/tips.html">Programming Tips &amp; Tricks</a></li>
+</ul>
+</li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Genome Informatics Workshop</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../Classes.html">Class list</a> &raquo;</li>
+      
+    <li>Class 19 : R : Manipulation &amp; Plotting</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="../_sources/Classes/class-19.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="class-19-r-manipulation-plotting">
+<h1>Class 19 : R : Manipulation &amp; Plotting<a class="headerlink" href="#class-19-r-manipulation-plotting" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#class-19-r-manipulation-plotting" title="Slides">§</a></h1>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#goals" title="Slides">§</a></h2>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Learn to load data with <tt class="docutils literal"><span class="pre">read.delim</span></tt></li>
+<li>Begin to manipulate data with <tt class="docutils literal"><span class="pre">reshape</span></tt> and <tt class="docutils literal"><span class="pre">plyr</span></tt></li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="loading-data-into-r">
+<h2>Loading data into R<a class="headerlink" href="#loading-data-into-r" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#loading-data-into-r" title="Slides">§</a></h2>
+<p>The main function for loading data is <tt class="docutils literal"><span class="pre">read.delim()</span></tt>:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="c1"># dfx is a data.frame. look at it with ``summary`` and ``head``</span>
+<span class="o">&gt;</span> dfx <span class="o">&lt;-</span> read.delim<span class="p">(</span><span class="s">&#39;lamina.bed&#39;</span><span class="p">)</span>
+<span class="o">&gt;</span> is.data.frame<span class="p">(</span>dfx<span class="p">)</span>
+</pre></div>
+</div>
+<p>If the column names are specified in a header line (begins with <tt class="docutils literal"><span class="pre">#</span></tt>),
+then you can load them as the column names with:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> dfx <span class="o">&lt;-</span> read.delim<span class="p">(</span><span class="s">&#39;lamina.bed&#39;</span><span class="p">,</span> header<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>You can also specify headers explicitly with:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> bedfilename <span class="o">&lt;-</span> <span class="s">&#39;/opt/bio-workshop/data/lamina.bed&#39;</span>
+<span class="o">&gt;</span> colnames <span class="o">&lt;-</span> c<span class="p">(</span><span class="s">&#39;chrom&#39;</span><span class="p">,</span><span class="s">&#39;start&#39;</span><span class="p">,</span><span class="s">&#39;end&#39;</span><span class="p">,</span><span class="s">&#39;name&#39;</span><span class="p">,</span><span class="s">&#39;score&#39;</span><span class="p">,</span><span class="s">&#39;strand&#39;</span><span class="p">)</span>
+<span class="o">&gt;</span> dfx <span class="o">&lt;-</span> read.delim<span class="p">(</span>bedfilename<span class="p">,</span> col.names<span class="o">=</span>colnames<span class="p">)</span>
+</pre></div>
+</div>
+<p>Recall that you access the column data with the <tt class="docutils literal"><span class="pre">$</span></tt> character:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> dfx<span class="o">$</span>chrom
+</pre></div>
+</div>
+<p>You can also <tt class="docutils literal"><span class="pre">attach</span></tt> and <tt class="docutils literal"><span class="pre">detach</span></tt> data.frames if you will be
+repeatedly accessing the data:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> attach<span class="p">(</span>dfx<span class="p">)</span>
+<span class="c1"># now, columns can be referred to directly</span>
+<span class="o">&gt;</span> chrom
+<span class="o">&gt;</span> detach<span class="p">(</span>dfx<span class="p">)</span>
+<span class="c1"># back to original style</span>
+<span class="o">&gt;</span> dfx<span class="o">$</span>chrom
+</pre></div>
+</div>
+<p>There are several data sets that are built-in to R, including:</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> mtcars   <span class="c1"># Motor Trend Cars Road Tests</span>
+<span class="o">&gt;</span> baseball <span class="c1"># in ``libarary(plyr)``</span>
+
+<span class="c1"># see all built-in data sets</span>
+<span class="o">&gt;</span> library<span class="p">(</span>help <span class="o">=</span> <span class="s">&quot;datasets&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="introduction-to-reshape">
+<h2>Introduction to reshape<a class="headerlink" href="#introduction-to-reshape" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#introduction-to-reshape" title="Slides">§</a></h2>
+<p>The <tt class="docutils literal"><span class="pre">reshape2</span></tt> package provides two important functions called
+<tt class="docutils literal"><span class="pre">melt()</span></tt> and <tt class="docutils literal"><span class="pre">recast()</span></tt>.</p>
+<p>These functions allow you to manipulate the shape of data frames. One
+common operation is to convert data tables from <cite>wide</cite> format to <cite>long</cite>
+format and back.</p>
+<p>There are useful examples in the article describing the reshape package
+<a class="footnote-reference" href="#id2" id="id1">[1]</a>. Check out the <tt class="docutils literal"><span class="pre">french</span> <span class="pre">fries</span></tt> case study.</p>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td><a class="reference external" href="http://www.jstatsoft.org/v21/i12/paper">http://www.jstatsoft.org/v21/i12/paper</a></td></tr>
+</tbody>
+</table>
+<div class="section" id="wide-format-or-unstacked">
+<h3>Wide format (or <cite>unstacked</cite>)<a class="headerlink" href="#wide-format-or-unstacked" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#wide-format-or-unstacked" title="Slides">§</a></h3>
+<p>Values for each variable are in a separate column.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Person</th>
+<th class="head">Age</th>
+<th class="head">Weight</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Bob</td>
+<td>32</td>
+<td>128</td>
+</tr>
+<tr class="row-odd"><td>Alice</td>
+<td>24</td>
+<td>86</td>
+</tr>
+<tr class="row-even"><td>Steve</td>
+<td>64</td>
+<td>95</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="long-format-or-stacked">
+<h3>Long format (or <cite>stacked</cite>)<a class="headerlink" href="#long-format-or-stacked" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#long-format-or-stacked" title="Slides">§</a></h3>
+<p>One column contains the variables, one column contains the values.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Person</th>
+<th class="head">Variable</th>
+<th class="head">Value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Bob</td>
+<td>Age</td>
+<td>32</td>
+</tr>
+<tr class="row-odd"><td>Bob</td>
+<td>Weight</td>
+<td>128</td>
+</tr>
+<tr class="row-even"><td>Alice</td>
+<td>Age</td>
+<td>24</td>
+</tr>
+<tr class="row-odd"><td>Alice</td>
+<td>Weight</td>
+<td>86</td>
+</tr>
+<tr class="row-even"><td>Steve</td>
+<td>Age</td>
+<td>64</td>
+</tr>
+<tr class="row-odd"><td>Steve</td>
+<td>Weight</td>
+<td>95</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="how-is-reshape-useful">
+<h2>How is <tt class="docutils literal"><span class="pre">reshape</span></tt> useful?<a class="headerlink" href="#how-is-reshape-useful" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#how-is-reshape-useful" title="Slides">§</a></h2>
+<p><tt class="docutils literal"><span class="pre">ggplot2</span></tt> expects data in <tt class="docutils literal"><span class="pre">long</span></tt> format, where individual points are
+categorized.</p>
+<p><strong>Question:</strong> Look at the <tt class="docutils literal"><span class="pre">summary</span></tt> data.frame. Is it in <tt class="docutils literal"><span class="pre">wide</span></tt> or
+<tt class="docutils literal"><span class="pre">long</span></tt> format?</p>
+<p>The data.frame from plyr is in <tt class="docutils literal"><span class="pre">wide</span></tt> format.</p>
+<div class="highlight-r"><div class="highlight"><pre><span class="o">&gt;</span> library<span class="p">(</span>reshape2<span class="p">)</span>
+<span class="o">&gt;</span> library<span class="p">(</span>ggplot2<span class="p">)</span>
+
+<span class="c1"># covert to long format</span>
+<span class="o">&gt;</span> long.summary <span class="o">&lt;-</span> melt<span class="p">(</span>summary<span class="p">,</span> id<span class="o">=</span>c<span class="p">(</span><span class="s">&#39;chrom&#39;</span><span class="p">))</span>
+
+<span class="o">&gt;</span> gp <span class="o">&lt;-</span> ggplot<span class="p">(</span>long.summary<span class="p">,</span> aes<span class="p">(</span>x<span class="o">=</span>chrom<span class="p">,</span> y<span class="o">=</span>value<span class="p">,</span> fill<span class="o">=</span>variable<span class="p">))</span>
+<span class="o">&gt;</span> gp <span class="o">+</span> geom_bar<span class="p">(</span>stat<span class="o">=</span><span class="s">&#39;identity&#39;</span><span class="p">,</span> position<span class="o">=</span><span class="s">&#39;dodge&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="exercises">
+<h2>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-19.html#exercises" title="Slides">§</a></h2>
+<ol class="arabic simple">
+<li>Figure out how to move overlapping points so categorical data is
+viewable (hint: look at geom_jitter() or the <cite>position</cite> argument to
+geom_point())</li>
+<li>Load a BED file (e.g. <tt class="docutils literal"><span class="pre">lamina.bed</span></tt>) and calculate the mean length of
+regions on each chromosome in the BED file with plyr.  Plot the result as
+a bar plot with ggplot2.</li>
+<li>Install <tt class="docutils literal"><span class="pre">dplyr</span></tt> and work through the vignette.
+<a class="reference external" href="http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html">http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html</a></li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="class-20.html" class="btn btn-neutral float-right" title="Class 20 : R : Manipulation &amp; Plotting"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="class-18.html" class="btn btn-neutral" title="Class 18 : R : Getting Started"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, Brent Pedersen, Jay Hesselberth.
+      Last updated on Aug 24, 2014.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
