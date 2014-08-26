@@ -22,8 +22,6 @@ URL: https://code.google.com/p/io-2012-slides
   
   <link rel="stylesheet" media="all"
         href="_static/theme/css/default.css">
-  <link rel="stylesheet" media="all"
-        href="_static/theme/css/hieroglyph.css">
   <link rel="stylesheet" media="only screen and (max-device-width: 480px)"
         href="_static/theme/css/phone.css">
 
@@ -152,83 +150,6 @@ function</p>
 <li>should include <tt class="docutils literal"><span class="pre">BEDTools</span></tt> examples from
 <a class="reference external" href="https://github.com/arq5x/bedtools-protocols">https://github.com/arq5x/bedtools-protocols</a></li>
 </ul>
-
-
-
-
-    </article>
-  </slide>  <slide class="level-2">
-    <hgroup>
-      <h2>Sphinx docs for for Genome Informatics Workshop<a class="headerlink" href="../README.html#sphinx-docs-for-for-genome-informatics-workshop" title="View HTML">§</a></h2>
-    </hgroup>
-    <article class="">
-      
-
-
-
-    </article>
-  </slide>  <slide class="level-3">
-    <hgroup>
-      <h3>Making linked slides and HTML<a class="headerlink" href="../README.html#making-linked-slides-and-html" title="View HTML">§</a></h3>
-    </hgroup>
-    <article class="">
-      <p>Make linked slides with:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>make html slides
-</pre></div>
-</div>
-
-
-
-
-    </article>
-  </slide>  <slide class="level-3">
-    <hgroup>
-      <h3>Making slides<a class="headerlink" href="../README.html#making-slides" title="View HTML">§</a></h3>
-    </hgroup>
-    <article class="">
-      <p>Make slides with:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>make slides
-</pre></div>
-</div>
-<p>Slides will be in <tt class="docutils literal"><span class="pre">_build/slides</span></tt></p>
-
-
-
-
-    </article>
-  </slide>  <slide class="level-3">
-    <hgroup>
-      <h3>Making webiste<a class="headerlink" href="../README.html#making-webiste" title="View HTML">§</a></h3>
-    </hgroup>
-    <article class="">
-      <p>Make HTML only with:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>make html
-</pre></div>
-</div>
-<p>Move HTML to bioworkshop.github.io with:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ websitedir</span><span class="o">=</span><span class="nv">$HOME</span>/devel/UCD-BioWorkshop.github.io
-<span class="nv">$ </span>cp -r _build/html/* ../../bio-workshop-io/ <span class="nv">$websitedir</span>
-<span class="nv">$ </span>cp -r _build/slides/ ../../bio-workshop-io/ <span class="nv">$websitedir</span>
-<span class="nv">$ </span><span class="nb">cd</span> <span class="nv">$websitedir</span>
-
-<span class="nv">$ </span>git pull origin master
-<span class="c"># add all new html</span>
-<span class="nv">$ </span>git add .
-
-<span class="c"># use git status to check all is added.</span>
-<span class="c"># you will have to explicity add (and use git add -f) stuff in</span>
-<span class="c"># Block_1, so that we don&#39;t post draft classes early.</span>
-git commit -m <span class="s2">&quot;update html&quot;</span>
-git push origin master
-</pre></div>
-</div>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p>this is codified in src/website.sh and can be run with:</p>
-<p class="last">$ make website</p>
-</div>
-<p>Check the new website <a class="reference external" href="http://ucd-bioworkshop.github.io/">http://ucd-bioworkshop.github.io/</a></p>
-<p>Pages are cached at this site, so it will take a few minutes to update.</p>
 
 
 
