@@ -1,7 +1,7 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'Genome Informatics Workshop 0.1 documentation',
+    title: 'Genome Informatics Workshop 0.2 documentation',
     subtitle: '',
     //eventInfo: {
     //  title: 'Google I/O',

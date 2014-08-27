@@ -1,53 +1,38 @@
-
-
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Class 18 : R : Getting Started &mdash; Genome Informatics Workshop 0.1 documentation</title>
-  
 
-  
-  
 
-  
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
-  
-  
-
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Class 18 : R : Getting Started &mdash; Genome Informatics Workshop 0.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.1.0/flatly/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:'../',
-        VERSION:'0.1',
-        COLLAPSE_INDEX:false,
-        FILE_SUFFIX:'.html',
+        URL_ROOT:    '../',
+        VERSION:     '0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
       };
     </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-    
-
-  
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-    <link rel="top" title="Genome Informatics Workshop 0.1 documentation" href="../index.html"/>
-        <link rel="up" title="Class list" href="../Classes.html"/>
-        <link rel="next" title="Class 19 : R : Manipulation &amp; Plotting" href="class-19.html"/>
-        <link rel="prev" title="Class 17 : Bash and Bam" href="class-17.html"/> 
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Genome Informatics Workshop 0.2 documentation" href="../index.html" />
+    <link rel="up" title="Class list" href="../Classes.html" />
+    <link rel="next" title="Class 19 : R : Manipulation &amp; Plotting" href="class-19.html" />
+    <link rel="prev" title="Class 17 : Bash and Bam" href="class-17.html" /> 
 
 <!-- Google Analytics tracking code -->
 <!--        DO NOT REMOVE           -->
@@ -65,31 +50,49 @@
 </script>
 
 
+  </head>
+  <body>
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
-
-</head>
-
-<body class="wy-body-for-nav">
-
-  <div class="wy-grid-for-nav">
-
-    
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-nav-search">
-        <a href="../index.html" class="icon icon-home"> Genome Informatics Workshop</a>
-        <form class="wy-form" action="../search.html" method="get">
-  <input type="text" name="q" placeholder="Search docs" />
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html"><img src="../_static/my_logo.png">
+          Genome Informatics Workshop</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.2</b></span>
       </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix">
-        
-        
-            <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../Syllabus.html">Syllabus (MOLB FIXME)</a><ul class="simple">
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+                <li><a href="http://hesselberthlab.github.io">Hesselberth lab</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Genome Informatics Workshop <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Syllabus.html">Syllabus</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#general-information">General Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#pdf-content">PDF Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#instructor-information">Instructor Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#schedule">Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#course-description">Course Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#canvas">Canvas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#assessment">Assessment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#specific-dates-material-to-be-covered">Specific Dates / Material to be Covered</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="reference internal" href="../Classes.html">Class list</a><ul class="current">
@@ -129,6 +132,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_5/problem_set_5.html">Problem Set 5</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_6/problem_set_6.html">Problem Set 6</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/Problem_Set_Keys.html">Problem Set : KEYS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets.html#problem-set-keys">Problem Set Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets.html#problem-set-submission">Problem Set Submission</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../Miscellaneous.html">Miscellaneous</a><ul>
@@ -138,32 +143,158 @@
 </ul>
 </li>
 </ul>
-
-        
-      </div>
-      &nbsp;
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top">
-        <i data-toggle="wy-nav-top" class="icon icon-reorder"></i>
-        <a href="/">Genome Informatics Workshop</a>
-      </nav>
-
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <ul class="wy-breadcrumbs">
-  <li><a href="../index.html">Docs</a> &raquo;</li>
-  <li><a href="">Class 18 : R : Getting Started</a></li>
-  
 </ul>
-<hr/>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Current TOC <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Class 18 : R : Getting Started</a><ul>
+<li><a class="reference internal" href="#goals">Goals</a></li>
+<li><a class="reference internal" href="#python">Python</a></li>
+<li><a class="reference internal" href="#data">Data</a></li>
+<li><a class="reference internal" href="#rstudio">RStudio</a></li>
+<li><a class="reference internal" href="#loading-data-in-r">Loading data in R</a></li>
+<li><a class="reference internal" href="#loading-data-in-r-2">Loading data in R(2)</a></li>
+<li><a class="reference internal" href="#print">print</a></li>
+<li><a class="reference internal" href="#libraries">libraries</a></li>
+<li><a class="reference internal" href="#r-paths">R paths</a></li>
+<li><a class="reference internal" href="#ggplot2">ggplot2</a></li>
+<li><a class="reference internal" href="#ggplot2-basic-syntax">ggplot2 basic syntax</a></li>
+<li><a class="reference internal" href="#ggplot2-syntax">ggplot2 syntax</a></li>
+<li><a class="reference internal" href="#googling-with-ggplot2">googling with ggplot2</a></li>
+<li><a class="reference internal" href="#answer">answer</a></li>
+<li><a class="reference internal" href="#ggplot2-documentation">ggplot2 documentation</a></li>
+<li><a class="reference internal" href="#dataframe">DataFrame</a></li>
+<li><a class="reference internal" href="#hist">Hist</a></li>
+<li><a class="reference internal" href="#exercise">Exercise</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
 
           
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Genome Informatics Workshop <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Syllabus.html">Syllabus</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#general-information">General Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#pdf-content">PDF Content</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#instructor-information">Instructor Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#schedule">Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#location">Location</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#course-description">Course Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#canvas">Canvas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#assessment">Assessment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Syllabus.html#specific-dates-material-to-be-covered">Specific Dates / Material to be Covered</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Classes.html">Class list</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="class-1.html">Class 1 : Virtual Machine (VM) and Linux Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-2.html">Class 2 : The command-line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-3.html">Class 3 : The command-line (part 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-4.html">Class 4 : awk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-5.html">Class 5 : Working in a cluster environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-6.html">Class 6 : Working in a cluster environment (part 2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-7.html">Class 7 : Python : Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-8.html">Class 8 : Python : Basics (2)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-9.html">Class 9 : Python Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-10.html">Class 10 : Applied Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-11.html">Class 11 : Python Idioms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-12.html">Class 12 : The ENCODE Project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-13.html">Class 13 : BEDtools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-14.html">Class 14 : ChIP-seq</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-15.html">Class 15 : ChIP-seq / DNase I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-16.html">Class 16: Genomic Analysis Vignettes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-17.html">Class 17 : Bash and Bam</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Class 18 : R : Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-19.html">Class 19 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-20.html">Class 20 : R : Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-21.html">Class 21 : R : DataFrames &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-22.html">Class 22 : R : Data Manipulation &amp; Plotting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-23.html">Class 23 : RNA-Seq I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-24.html">Class 24 : RNA-Seq II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-25.html">Class 25 : Exome-Seq - Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="class-26.html">Class 26 : Exome-Seq - Variants</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Problem_Sets.html">Problem Sets</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_1/problem_set_1.html">Problem Set 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_2/problem_set_2.html">Problem Set 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_3/problem_set_3.html">Problem Set 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_4/problem_set_4.html">Problem Set 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_5/problem_set_5.html">Problem Set 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/problem_set_6/problem_set_6.html">Problem Set 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets/Problem_Set_Keys.html">Problem Set : KEYS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets.html#problem-set-keys">Problem Set Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Problem_Sets.html#problem-set-submission">Problem Set Submission</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Miscellaneous.html">Miscellaneous</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../misc/commands.html">Reference: list of commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/data.html">Sample Data files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../misc/tips.html">Programming Tips &amp; Tricks</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+<div id="sourcelink">
+  <a href="../_sources/Classes/class-18.txt"
+     rel="nofollow">Source</a>
+</div>
+<form action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+  <h3>Slides</h3>
+  <ul class="this-page-menu">
+    <li><a href="../../slides/Classes/class-18.html"
+           rel="nofollow">View as slides</a></li>
+  </ul>
+        </div>
+      </div>
+    <div class="col-md-9">
+      
   <div class="section" id="class-18-r-getting-started">
 <h1>Class 18 : R : Getting Started<a class="headerlink" href="#class-18-r-getting-started" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-18.html#class-18-r-getting-started" title="Slides">§</a></h1>
 <div class="admonition important">
@@ -379,34 +510,28 @@ either by <strong>facet</strong> or by <strong>fill</strong>.</p>
 </div>
 
 
-          <footer>
-  
-    <div class="rst-footer-buttons">
-      
-        <a href="class-19.html" class="btn btn-neutral float-right" title="Class 19 : R : Manipulation &amp; Plotting"/>Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="class-17.html" class="btn btn-neutral" title="Class 17 : Bash and Bam"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
     </div>
-  
-
-  <hr/>
-
-  <p>
-      &copy; Copyright 2014, Brent Pedersen, Jay Hesselberth.
-    Last updated on Aug 25, 2014.
-  </p>
-
-  <a href="https://www.github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="http://readthedocs.org">Read the Docs</a>
-</footer>
-        </div>
-      </div>
-
-    </section>
-
+      
   </div>
-  
-
-</body>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../_sources/Classes/class-18.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, Brent Pedersen, Jay Hesselberth.<br/>
+      Last updated on Aug 27, 2014.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 (function(){
 
-SlideDeck.prototype.BUILD_ITEM_RE = /build-item-(\d+)/;
+SlideDeck.prototype.BUILD_ITEM_RE = /build-item-(\d+)(-class-(\w+))?(-only)?/;
 
 SlideDeck.prototype.makeBuildLists_ = function () {
   for (var i = this.curSlide_, slide; slide = this.slides[i]; ++i) {
@@ -30,11 +30,25 @@ SlideDeck.prototype.makeBuildLists_ = function () {
         }
       }
 
-      var build_index = this.BUILD_ITEM_RE.exec(item.classList)[1];
+      var build_info = this.BUILD_ITEM_RE.exec(item.classList),
+          build_index = build_info[1],
+          build_class = build_info[3],
+          build_only = build_info[4];
+
       if (slide._buildItems[build_index] === undefined) {
           slide._buildItems[build_index] = [];
       }
       slide._buildItems[build_index].push(item);
+
+      if (build_class) {
+          item.setAttribute('data-build-class', build_class);
+      }
+
+      if (build_only) {
+          // add the data-attribute
+          item.setAttribute('data-build-show-only', build_index);
+      }
+
     }
 
   }
@@ -57,6 +71,17 @@ SlideDeck.prototype.buildNextItem_ = function() {
             if (built_item.classList.contains('fade')) {
                 built_item.classList.add('build-fade');
             }
+
+            if (built_item.getAttribute('data-build-show-only')) {
+
+                if (built_item.getAttribute('data-build-class')) {
+                    built_item.classList.remove(
+                        built_item.getAttribute('data-build-class')
+                    );
+                } else {
+                    built_item.classList.add('build-hide');
+                }
+            }
         };
     }
 
@@ -68,6 +93,10 @@ SlideDeck.prototype.buildNextItem_ = function() {
             show_items.forEach(function(item, index, items) {
                 item.classList.remove('to-build');
                 item.classList.add('build-current');
+
+                if (item.getAttribute('data-build-class')) {
+                    item.classList.add(item.getAttribute('data-build-class'));
+                }
             });
 
             return true;
