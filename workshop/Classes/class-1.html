@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Class 1 : Virtual Machine (VM) and Linux Introduction &mdash; Genome Informatics Workshop 0.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.1.0/flatly/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="Genome Informatics Workshop 0.2 documentation" href="../index.html" />
+    <link rel="up" title="Class list" href="../Classes.html" />
+    <link rel="next" title="Class 2 : The command-line" href="class-2.html" />
+    <link rel="prev" title="Class list" href="../Classes.html" /> 
+
+<!-- Google Analytics tracking code -->
+<!--        DO NOT REMOVE           -->
+<!--           JRH                  -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47837611-1', 'ucd-bioworkshop.github.io');
+  ga('send', 'pageview');
+
+</script>
+
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html"><img src="../_static/my_logo.png">
+          Genome Informatics Workshop</a>
+        <span class="navbar-text navbar-version pull-left"><b>0.2</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+                <li><a href="http://hesselberthlab.github.io">Hesselberth lab</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Genome Informatics Workshop <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Syllabus.html">Syllabus</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../Classes.html">Class list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Problem_Sets.html">Problem Sets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Miscellaneous.html">Miscellaneous</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">Class 1 : Virtual Machine (VM) and Linux Introduction</a><ul>
+<li><a class="reference internal" href="#goals">Goals</a></li>
+<li><a class="reference internal" href="#class-overview">Class Overview</a></li>
+<li><a class="reference internal" href="#the-virtual-machine-vm">The Virtual Machine (VM)</a></li>
+<li><a class="reference internal" href="#important-directories">Important Directories</a></li>
+<li><a class="reference internal" href="#terminal-and-gedit">Terminal and Gedit</a></li>
+<li><a class="reference internal" href="#shell-and-python-programming">Shell and Python Programming</a></li>
+<li><a class="reference internal" href="#first-quiz-reading">First Quiz : Reading</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    <div class="col-md-9">
+      
+  <div class="section" id="class-1-virtual-machine-vm-and-linux-introduction">
+<h1>Class 1 : Virtual Machine (VM) and Linux Introduction<a class="headerlink" href="#class-1-virtual-machine-vm-and-linux-introduction" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#class-1-virtual-machine-vm-and-linux-introduction" title="Slides">§</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Class date:</th><td class="field-body">XXX</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#goals" title="Slides">§</a></h2>
+<ol class="arabic simple">
+<li>Class overview</li>
+<li>Get the VM running</li>
+<li>Overall goals for the Blocks and Class</li>
+</ol>
+</div>
+<div class="section" id="class-overview">
+<h2>Class Overview<a class="headerlink" href="#class-overview" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#class-overview" title="Slides">§</a></h2>
+<p>Each class is 90 minutes. We intend to spend the first 30 min going
+through exercises that demonstrate how specific tools are useful in
+bioinformatics. During the remaining hour, we expect you to work through
+exercises, asking for help when you get stuck.</p>
+<p>We will record the first 30 minutes using Panopto Screen Capture, and
+these recordings will be available in Canvas. We have found that simply
+watching someone work in a terminal (move around, open up text editors,
+write and execute simple programs) can be a very effective way to get
+started with programming. Hopefully these movies will serve the same
+purpose.</p>
+<p>Each week, we will have 1 take home quiz, due the following Tuesday at 5
+PM.</p>
+</div>
+<div class="section" id="the-virtual-machine-vm">
+<h2>The Virtual Machine (VM)<a class="headerlink" href="#the-virtual-machine-vm" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#the-virtual-machine-vm" title="Slides">§</a></h2>
+<p>The VM will let you run Linux on your laptop, or the laptops available at
+the Teaching Lab. The VM has many of the tools you will need for analysis
+pre-installed. Feel free to install other tools that you think will be
+useful.</p>
+<p>To install the VM:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Download VirtualBox from virtualbox.org</li>
+<li>Open VirtualBox. Click &#8220;New&#8221; in the upper left corner.</li>
+<li>In the &#8220;Name&#8221; field, type bio-workshop.  For &#8220;Type&#8221; select Linux.  For
+&#8220;Version&#8221;  select Ubuntu.  Click continue.</li>
+<li>Allocate an amount of memory that keeps the bar in the green zone.
+2048MB is a nice number.  Click continue.</li>
+<li>Click the &#8220;Use an existing virtual hard drive file&#8221; radio button.
+Click the folder icon.  Select the .vdi file provided on your USB stick.</li>
+<li>Click create.</li>
+<li>Press the &#8220;Start&#8221; button.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="important-directories">
+<h2>Important Directories<a class="headerlink" href="#important-directories" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#important-directories" title="Slides">§</a></h2>
+<p>You will learn about directories in the next class, but note that the
+content for this class is available in:</p>
+<div class="highlight-bash"><div class="highlight"><pre>/opt/bio-workshop/
+</pre></div>
+</div>
+<p>When you write answers to your homeworks, they should be runnable from
+a directory like:</p>
+<div class="highlight-bash"><div class="highlight"><pre>/opt/bio-workshop/homeworks/section_1/week1/
+</pre></div>
+</div>
+</div>
+<div class="section" id="terminal-and-gedit">
+<h2>Terminal and Gedit<a class="headerlink" href="#terminal-and-gedit" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#terminal-and-gedit" title="Slides">§</a></h2>
+<p>When you open a Terminal, you also launch a shell process, typically a
+bash process. At the prompt, you can type things that bash understands,
+and it will do them. The shell has its own language, which you will learn
+over the course of the class. It also runs executable files that it can
+find on the PATH (i.e. the set of directories that contain exectuables).</p>
+<p>You can find what is on your PATH by typing:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span><span class="nb">echo</span> <span class="nv">$PATH</span>
+</pre></div>
+</div>
+<p>The PATH is one of several environment variables that are created when you
+login. You can see all of these with:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>env
+</pre></div>
+</div>
+<p>One important program in the PATH is gedit. You will use this program to
+keep notes and write small programs. There are other editors (e.g. vim and
+emacs) that have additional features; it&#8217;s up to you whether you would
+like to learn those or stick with the graphical gedit.</p>
+<p>To run gedit, use:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>gedit
+</pre></div>
+</div>
+<p>This will open a window where you can type. You can write a small test
+document and save it.</p>
+</div>
+<div class="section" id="shell-and-python-programming">
+<h2>Shell and Python Programming<a class="headerlink" href="#shell-and-python-programming" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#shell-and-python-programming" title="Slides">§</a></h2>
+<p>It is important that you learn a few new computer languages. Others have
+developed very good guides to teach you these languages, and we are going
+to use those in the class. We expect you to begin taking these classes
+immediately, doing them within the VM for practice.</p>
+<p>You will spend a lot of time going through these online classes, both in
+schedule class time, and outside of class time. Instead of focusing on
+teaching you these languages, we will focus on helping you get through all
+of the frustating problems that come up when you&#8217;re learning the languages.</p>
+<p>We will spend the first ~2 weeks learning shell <a class="footnote-reference" href="#id2" id="id1">[1]</a> and all the things
+you have access to within the shell.</p>
+<table class="docutils footnote" frame="void" id="id2" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[1]</a></td><td>The Command Line Crash Course
+<a class="reference external" href="http://cli.learncodethehardway.org/book/">http://cli.learncodethehardway.org/book/</a></td></tr>
+</tbody>
+</table>
+<p>After learning shell, we will begin learning Python <a class="footnote-reference" href="#id4" id="id3">[2]</a>. The Python
+language allows you to do more sophisticated things that would be possible
+in shell, but would be considerably more clunky.</p>
+<table class="docutils footnote" frame="void" id="id4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[2]</a></td><td>Learn Python the Hard Way
+<a class="reference external" href="http://learnpythonthehardway.org/book/">http://learnpythonthehardway.org/book/</a></td></tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="first-quiz-reading">
+<h2>First Quiz : Reading<a class="headerlink" href="#first-quiz-reading" title="Permalink to this headline">¶</a><a class="headerlink" href="../slides/Classes/class-1.html#first-quiz-reading" title="Slides">§</a></h2>
+<p>Computational biology projects inevitably accrue a lot of files. For the
+first quiz, you&#8217;ll need to read a paper <a class="footnote-reference" href="#id6" id="id5">[3]</a> and be able to put a set of
+files in the correct places. We highly recommend adopting this scheme for
+all of your projects in and out of the class.</p>
+<table class="docutils footnote" frame="void" id="id6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id5">[3]</a></td><td>A Quick Guide to Organizing Computational Biology Projects (2009)
+PLoS Comput. Biol. William S. Noble
+<a class="reference external" href="http://dx.plos.org/10.1371/journal.pcbi.1000424">http://dx.plos.org/10.1371/journal.pcbi.1000424</a></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../_sources/Classes/class-1.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, Brent Pedersen, Jay Hesselberth.<br/>
+      Last updated on Aug 28, 2014.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
