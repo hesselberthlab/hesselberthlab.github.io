@@ -23,8 +23,8 @@ TRANSLATION_FEED_ATOM = None
 LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/jayhesselberth'),
+          ('github', 'http://github.com/hesselberthlab'),)
 
 DEFAULT_PAGINATION = False
 
