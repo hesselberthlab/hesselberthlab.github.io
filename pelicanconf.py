@@ -8,7 +8,9 @@ SITEURL = 'http://hesselberthlab.github.io'
 
 PATH = 'content'
 
-THEME = 'themes/pelican-bootstrap3'
+THEME = 'hesselberth-theme'
+
+BOOTSTRAP_THEME = 'lavish'
 
 TIMEZONE = 'America/Denver'
 
