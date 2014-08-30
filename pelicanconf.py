@@ -10,9 +10,10 @@ PATH = 'content'
 
 THEME = 'themes/pelican-bootstrap3'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = u'en'
+GOOGLE_ANALYTICS='UA-54095998-1'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
