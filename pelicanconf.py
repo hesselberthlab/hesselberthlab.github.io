@@ -4,9 +4,11 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jay Heselberth'
 SITENAME = u'Hesselberth Lab'
-SITEURL = ''
+SITEURL = 'http://hesselberthlab.github.io'
 
 PATH = 'content'
+
+THEME = 'themes/pelican-bootstrap3'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -18,10 +20,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
