@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hesselberth Lab</title><link href="http://hesselberthlab.github.io/" rel="alternate"></link><link href="http://hesselberthlab.github.io/feeds/all.atom.xml" rel="self"></link><id>http://hesselberthlab.github.io/</id><updated>2014-08-29T18:54:09-06:00</updated><entry><title>Projects</title><link href="http://hesselberthlab.github.io/projects.html" rel="alternate"></link><updated>2014-08-29T18:54:09-06:00</updated><author><name>Jay Hesselberth</name></author><id>tag:hesselberthlab.github.io,2014-08-29:projects.html</id><summary type="html">&lt;p&gt;We develop molecular methods that enable genomic discovery, leveraging advances
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hesselberth Lab</title><link href="http://hesselberthlab.github.io/" rel="alternate"></link><link href="http://hesselberthlab.github.io/feeds/all.atom.xml" rel="self"></link><id>http://hesselberthlab.github.io/</id><updated>2014-08-29T19:00:32-06:00</updated><entry><title>Contact</title><link href="http://hesselberthlab.github.io/contact.html" rel="alternate"></link><updated>2014-08-29T19:00:32-06:00</updated><author><name>Jay Hesselberth</name></author><id>tag:hesselberthlab.github.io,2014-08-29:contact.html</id><summary type="html">&lt;p&gt;Office Phone: (303) 724-5384
+Lab Phone: (303) 724-5486
+E-mail: jay.hesselberth at gmail.com&lt;/p&gt;
+&lt;div class="section" id="fedex-ups-deliveries"&gt;
+&lt;h2&gt;FedEx / UPS Deliveries&lt;/h2&gt;
+&lt;p&gt;University of Colorado School of Medicine
+12801 E 17TH AVE
+RC1 South 10104
+Aurora CO 80045&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="usps-deliveries"&gt;
+&lt;h2&gt;USPS Deliveries&lt;/h2&gt;
+&lt;p&gt;University of Colorado School of Medicine
+Mail stop 8101
+Aurora CO 80045&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Projects</title><link href="http://hesselberthlab.github.io/projects.html" rel="alternate"></link><updated>2014-08-29T18:54:09-06:00</updated><author><name>Jay Hesselberth</name></author><id>tag:hesselberthlab.github.io,2014-08-29:projects.html</id><summary type="html">&lt;p&gt;We develop molecular methods that enable genomic discovery, leveraging advances
 in next-generation DNA sequencing and computational biology.&lt;/p&gt;
 &lt;div class="section" id="next-generation-proteomics-and-whole-proteome-sequencing"&gt;
 &lt;h2&gt;Next-generation proteomics and whole proteome sequencing&lt;/h2&gt;
