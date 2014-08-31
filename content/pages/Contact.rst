@@ -10,12 +10,14 @@ Contact
 General
 ~~~~~~~
 
- + Office Phone: (303) 724-5384
- + Lab Phone: (303) 724-5486
- + E-mail: jay.hesselberth@gmail.com 
+:Office Phone:  303.724.5384
+:Lab Phone:     303.724.5486
+:E-mail:        jay.hesselberth@gmail.com 
 
-FedEx / UPS Deliveries
-~~~~~~~~~~~~~~~~~~~~~~
+FedEx / UPS Deliveries (preferred)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
 
     University of Colorado School of Medicine
     12801 E 17TH AVE
@@ -25,6 +27,9 @@ FedEx / UPS Deliveries
 USPS Deliveries
 ~~~~~~~~~~~~~~~
 
+::
+
     University of Colorado School of Medicine
-    Mail stop 8101
+    L18-10104
+    Mail stop 8101 
     Aurora CO 80045
