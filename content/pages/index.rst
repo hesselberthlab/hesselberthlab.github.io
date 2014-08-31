@@ -14,8 +14,13 @@ Overview
 News
 ----
 
-+ 2014 Aug 31: We are excited to be recruiting a new genomics faculty member
-  `[link] <https://t.co/JkUp4oxUQj>`_.
++ 2014 Aug 31: We are excited to be recruiting a new genomics faculty
+  member in the Biochemistry and Molecular Genetics department `[link]
+  <https://t.co/JkUp4oxUQj>`_.
 
 + 2014 Aug 16: Sally Peach passed her comprehensive exam. Huzzah!
 
++ 2014 Jul 1: Patrick Cherry joins the lab!
+
++ 2014 Jul 1: Our manuscript describing Excision-seq is published in
+  Genome Research. Congratulations Suzi and Monica!
