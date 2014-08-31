@@ -11,6 +11,8 @@ DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
+PDF_GENERATOR = True
+
 MENUITEMS = (
     ('People', '/pages/people.html'),
     ('Projects', '/pages/projects.html'),
@@ -35,7 +37,9 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Genome Informatics Workshop','http://hesselberthlab.github.io/workshop'),)
+LINKS = (('Faculty web page',
+          'http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Hesselberth.aspx'),
+         ('Genome Informatics Workshop','http://hesselberthlab.github.io/workshop'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/jayhesselberth'),
