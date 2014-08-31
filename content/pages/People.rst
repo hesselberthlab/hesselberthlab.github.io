@@ -14,6 +14,7 @@ Current
    + Suzi Bryan
    + Sally Peach
    + Patrick Cherry
+   + Monty Prekeris
    + Monica Ransom, PhD
    + Austin Gillen, PhD
 
