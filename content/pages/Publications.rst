@@ -17,9 +17,6 @@ Publications
         Hesselberth**. High-resolution mapping of modified nucleobases in DNA with
         excision repair enzymes (2014). In press, Genome Research.
 
-        **Highlighted in GenomeWeb, "U of Colorado Team Develops Excision-seq
-        Method to Map Modified  Bases"**
-
     #.  Manoj M Pillai, Austin E. Gillen, Enos Kline, Joseph Brown, Kale
         Flory, **Jay R. Hesselberth** and Peter Kabos,, Genomewide analysis of
         miRNA-mRNA interactions in breast cancer. (2014) Breast Cancer Res
