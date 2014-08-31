@@ -6,8 +6,18 @@ AUTHOR = u'Jay Heselberth'
 SITENAME = u'Hesselberth Lab'
 GITHUB_USER = 'hesselberthlab'
 SITEURL = 'http://hesselberthlab.github.io'
-DISPLAY_TAGS_ON_SIDEBAR = False
 
+DISPLAY_TAGS_ON_SIDEBAR = False
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = (
+    ('People', '/pages/people.html'),
+    ('Projects', '/pages/projects.html'),
+    ('Publications', '/pages/publications.html'),
+    ('Resources', '/pages/resources.html'),
+    ('Contact', '/pages/contact.html'),
+                    )
 PATH = 'content'
 
 THEME = 'hesselberth-theme'

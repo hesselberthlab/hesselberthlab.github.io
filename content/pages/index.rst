@@ -19,5 +19,7 @@ News
 
 + 2014 Jul 1: Patrick Cherry joins the lab!
 
-+ 2014 Jul 1: Our manuscript describing Excision-seq is published in
-  Genome Research. Congratulations Suzi and Monica!
++ 2014 Jul 1: Our `manuscript
+  <http://genome.cshlp.org/content/early/2014/08/03/gr.174052.114.abstract>`_
+  describing Excision-seq is published in Genome Research. Congratulations
+  Suzi and Monica!

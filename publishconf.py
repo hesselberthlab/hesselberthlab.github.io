@@ -11,8 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://hesselberthlab.github.io'
-# RELATIVE_URLS = False
-RELATIVE_URLS = True
+RELATIVE_URLS = False
+# RELATIVE_URLS = True
 
 TAGS_SAVE_AS = ''
 TAG_SAVE_AS = ''
