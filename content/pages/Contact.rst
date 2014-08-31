@@ -17,19 +17,15 @@ General
 FedEx / UPS Deliveries (preferred)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-::
-
-    University of Colorado School of Medicine
-    12801 E 17TH AVE
-    RC1 South 10104
-    Aurora CO 80045
+| University of Colorado School of Medicine
+| 12801 E 17TH AVE
+| RC1 South 10104
+| Aurora CO 80045
 
 USPS Deliveries
 ~~~~~~~~~~~~~~~
 
-::
-
-    University of Colorado School of Medicine
-    L18-10104
-    Mail stop 8101 
-    Aurora CO 80045
+| University of Colorado School of Medicine
+| L18-10104
+| Mail stop 8101 
+| Aurora CO 80045
