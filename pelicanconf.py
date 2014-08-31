@@ -4,7 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jay Heselberth'
 SITENAME = u'Hesselberth Lab'
+GITHUB_USER = 'hesselberthlab'
 SITEURL = 'http://hesselberthlab.github.io'
+DISPLAY_TAGS_ON_SIDEBAR = False
 
 PATH = 'content'
 
@@ -23,7 +25,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = ()
+LINKS = (('Genome Informatics Workshop','http://hesselberthlab.github.io/workshop'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/jayhesselberth'),

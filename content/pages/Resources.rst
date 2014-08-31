@@ -6,6 +6,16 @@ Resources
 :category: Resources 
 :tags: Resources
 
+Funding
+-------
+We thank the following funding sources for supporting the lab:
+
++ American Cancer Society
++ Damon Runyon Cancer Research Foundation
++ March of Dimes
++ University of Colorado / Golfers Against Cancer
++ National Institutes of Health
+
 Software
 --------
 Software developed in the lab is available in `Github
