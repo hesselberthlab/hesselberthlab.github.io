@@ -5,7 +5,6 @@ Projects
 :author: Jay Hesselberth
 :summary: Current projects in the Hesselberth lab
 :category: Projects
-:save_as: index.html
 :tags: Projects
 
 We develop molecular methods that enable genomic discovery, leveraging advances
