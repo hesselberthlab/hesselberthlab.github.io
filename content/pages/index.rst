@@ -12,8 +12,8 @@ at the `University of Colorado School of Medicine
 molecular methods to study DNA, RNA and proteins, and apply them to study
 specific biological problems.
 
-News
-----
+News :fa:`fa-newspaper-o`
+-------------------------
 
 + Recruiting a new genomics faculty member in the Biochemistry and
   Molecular Genetics department `[link] <https://t.co/JkUp4oxUQj>`_. [2014
