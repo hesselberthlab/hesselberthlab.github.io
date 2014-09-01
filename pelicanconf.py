@@ -11,6 +11,8 @@ DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
+BOOTSTRAP_NAVBAR_INVERSE = True
+
 PDF_GENERATOR = True
 
 MENUITEMS = (
@@ -18,8 +20,11 @@ MENUITEMS = (
     ('Projects', '/pages/projects.html'),
     ('Publications', '/pages/publications.html'),
     ('Resources', '/pages/resources.html'),
-    ('Contact', '/pages/contact.html'),
-                    )
+    ('Contact', '/pages/contact.html'),)
+
+PLUGINS = [
+    'pelican_fontawesome',]
+
 PATH = 'content'
 
 THEME = 'hesselberth-theme'

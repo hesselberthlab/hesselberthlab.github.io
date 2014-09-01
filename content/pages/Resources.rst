@@ -6,8 +6,9 @@ Resources
 :category: Resources 
 :tags: Resources
 
-Funding
--------
+Funding :fa:`fa-usd`
+--------------------
+
 We thank the following funding sources for supporting the lab:
 
 + American Cancer Society
@@ -16,18 +17,21 @@ We thank the following funding sources for supporting the lab:
 + University of Colorado / Golfers Against Cancer
 + National Institutes of Health
 
-Software
---------
+Software :fa:`fa-github-alt`
+----------------------------
+
 Software developed in the lab is available in `Github
 <https://github.com/hesselberthlab/>`_.
 
-Public data sets
-----------------
+Data :fa:`fa-bar-chart`
+-----------------------
+
 Published data sets are available from `NCBI GEO
 <http://www.ncbi.nlm.nih.gov/geo/browse/?view=series&submitter=2717>`_.
 
-Plasmids
---------
+Plasmids :fa:`fa-circle-o`
+--------------------------
+
 Published plasmid constructs are available from `Addgene
 <http://www.addgene.org/Jay_Hesselberth/>`_.
 
