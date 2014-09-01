@@ -1,11 +1,13 @@
-Publications
-############
+Publications :fa:`fa-book`
+##########################
 
 :fa:`fa-graduation-cap` `Google Scholar
 <http://scholar.google.com/citations?user=EnOmNEYAAAAJ&hl=en>`_
+:fa:`fa-plus-square` `ImpactStory
+<https://impactstory.org/JayHesselberth>`_
 
-Publications :fa:`fa-bookmark-o`
---------------------------------
+Primary :fa:`fa-bookmark-o`
+---------------------------
 
 2014
 ~~~~

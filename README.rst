@@ -18,14 +18,7 @@ Then::
   
 to push all the content.
 
-Theme
------
-Currently the theme is a little jacked. Need to update colors with lavish.
-Monty?
-
 TODO
 ----
+- Need to update colors with lavish.
 - Add transparent mountain pic to footer
-- Add teaching link to side bar
-- Figure out menu ordering
-- Add Google Scholar link to side bar
