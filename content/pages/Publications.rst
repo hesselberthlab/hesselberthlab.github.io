@@ -1,5 +1,5 @@
-Publications :fa:`fa-book`
-##########################
+Publications
+############
 
 :fa:`fa-graduation-cap` `Google Scholar
 <http://scholar.google.com/citations?user=EnOmNEYAAAAJ&hl=en>`_

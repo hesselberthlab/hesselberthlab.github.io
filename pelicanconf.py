@@ -16,11 +16,11 @@ BOOTSTRAP_NAVBAR_INVERSE = True
 PDF_GENERATOR = True
 
 MENUITEMS = (
-    ('People', '/pages/people.html'),
-    ('Projects', '/pages/projects.html'),
-    ('Publications', '/pages/publications.html'),
-    ('Resources', '/pages/resources.html'),
-    ('Contact', '/pages/contact.html'),)
+    ('People <span class="fa fa-group"></span>', '/pages/people.html'),
+    ('Projects <span class="fa fa-coffee"></span>', '/pages/projects.html'),
+    ('Publications <span class="fa fa-book"></span>', '/pages/publications.html'),
+    ('Resources <span class="fa fa-archive"></span>', '/pages/resources.html'),
+    ('Contact <span class="fa fa-envelope"></span>', '/pages/contact.html'),)
 
 PLUGINS = [
     'pelican_fontawesome',]
