@@ -15,6 +15,7 @@ We thank the following funding sources for supporting the lab:
 + Damon Runyon Cancer Research Foundation
 + March of Dimes
 + University of Colorado / Golfers Against Cancer
++ University of Colorado Skin Disease Research Center
 + National Institutes of Health
 
 Software :fa:`fa-github-alt`

@@ -42,7 +42,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Faculty web page',
+LINKS = (('University Webpage',
           'http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Hesselberth.aspx'),
          ('Genome Informatics Workshop','http://hesselberthlab.github.io/workshop'),)
 

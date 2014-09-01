@@ -15,16 +15,16 @@ specific biological problems.
 News
 ----
 
-+ 2014 Aug 31: We are excited to be recruiting a new genomics faculty
-  member in the Biochemistry and Molecular Genetics department `[link]
-  <https://t.co/JkUp4oxUQj>`_.
++ Recruiting a new genomics faculty member in the Biochemistry and
+  Molecular Genetics department `[link] <https://t.co/JkUp4oxUQj>`_. [2014
+  Aug 31]
 
-+ 2014 Aug 16: Sally Peach passes her comprehensive exam. Huzzah!
++ Sally Peach passes her comprehensive exam. Huzzah! [2014 Aug 16]
 
-+ 2014 Jul 1: Patrick Cherry joins the lab!
++ Patrick Cherry joins the lab! [2014 Jul 1]
 
-+ 2014 Jul 1: Our `manuscript
++ Our `manuscript
   <http://genome.cshlp.org/content/early/2014/08/03/gr.174052.114.abstract>`_
   describing Excision-seq is published in Genome Research. Congratulations
-  Suzi and Monica!
+  Suzi and Monica! [2014 Jul 1]
 
