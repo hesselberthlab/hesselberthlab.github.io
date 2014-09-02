@@ -6,6 +6,7 @@ General
 
 | :fa:`fa-phone`  303.724.5384 (office)
 | :fa:`fa-phone`  303.724.5486 (lab)
+| :fa:`fa-fax`  303.724.3215 (fax)
 | :fa:`fa-envelope` jay.hesselberth gmail.com 
 
 FedEx / UPS :fa:`fa-thumbs-up`
