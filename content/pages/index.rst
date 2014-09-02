@@ -66,7 +66,7 @@ News :fa:`fa-newspaper-o`
   <http://www.ncbi.nlm.nih.gov/pubmed/24919400>`_ is
   published in RNA.  [2014 Apr 1]
 
-| :fa:`fa-book` Collaboration with Dave Barton and Daphne Cooper to
+| :fa:`fa-book` Our study with Dave Barton and Daphne Cooper to
   globally map RNase L substrates is published in `NAR
   <http://www.ncbi.nlm.nih.gov/pubmed/24500209>`_ 
   [2014 Apr 1]
