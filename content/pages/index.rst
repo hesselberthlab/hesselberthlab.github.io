@@ -44,9 +44,8 @@ News :fa:`fa-newspaper-o`
 .. check news items with `make publish` to confirm they fit in 1 line on
 .. the page.
 
-| :fa:`fa-bullhorn` Recruiting a new genomics faculty member in the Biochemistry and
-  Molecular Genetics department `[link] <https://t.co/JkUp4oxUQj>`_. [2014
-  Aug 31]
+| :fa:`fa-bullhorn` Recruiting a new genomics faculty member 
+  `[link] <https://t.co/JkUp4oxUQj>`_. [2014 Aug 31]
 
 | :fa:`fa-birthday-cake` Sally passed her comprehensive exam! [2014 Aug 16]
 
@@ -67,7 +66,7 @@ News :fa:`fa-newspaper-o`
   <http://www.ncbi.nlm.nih.gov/pubmed/24919400>`_ is
   published in RNA.  [2014 Apr 1]
 
-| :fa:`fa-book` Our collaboration with Dave Barton and Daphne Cooper to
+| :fa:`fa-book` Collaboration with Dave Barton and Daphne Cooper to
   globally map RNase L substrates is published in `NAR
   <http://www.ncbi.nlm.nih.gov/pubmed/24500209>`_ 
   [2014 Apr 1]

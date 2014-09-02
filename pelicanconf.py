@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Jay Heselberth'
+AUTHOR = u'Jay Hesselberth'
 SITENAME = u'Hesselberth Lab'
 GITHUB_USER = 'hesselberthlab'
 SITEURL = 'http://hesselberthlab.github.io'
