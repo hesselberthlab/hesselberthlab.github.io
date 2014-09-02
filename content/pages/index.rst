@@ -34,8 +34,8 @@ processing or decay. Moreover, competition between RNA repair and
 decay regulates an important cellular homeostasis pathway, suggesting that
 this regulation of RNA fate may be widespread.
 
-News :fa:`fa-newspaper-o`
--------------------------
+News :fa:`fa-exclamation`
+*************************
 
 + Recruiting a new genomics faculty member in the Biochemistry and
   Molecular Genetics department `[link] <https://t.co/JkUp4oxUQj>`_. [2014

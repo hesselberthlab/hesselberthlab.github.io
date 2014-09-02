@@ -42,10 +42,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('University Webpage',
-          'http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Hesselberth.aspx'),
-         ('Genome Informatics Workshop','http://hesselberthlab.github.io/workshop'),)
-
+LINKS = ( ('Genome Informatics Workshop','http://hesselberthlab.github.io/workshop'),
+          ('University Webpage',
+          'http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Hesselberth.aspx'),)
+         
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/jayhesselberth'),
           ('github', 'http://github.com/hesselberthlab'),)
