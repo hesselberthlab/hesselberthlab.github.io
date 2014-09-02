@@ -44,15 +44,19 @@ News :fa:`fa-newspaper-o`
 | :fa:`fa-birthday-cake` Sally Peach passes her comprehensive exam. Huzzah! [2014 Aug 16]
 
 | :fa:`fa-group` Jay, Sally and Suzi attended the GSA Yeast meeting in
-  Seattle.
+  Seattle. [2014 Jul 29]
 
 | :fa:`fa-group` Jay gave a talk at the FASEB RNA Decay meeting in Big
-  Sky, MT
+  Sky, MT [2014 Jul 6]
 
 | :fa:`fa-home` Patrick Cherry joins the lab! [2014 Jul 1]
 
-| :fa:`fa-book` Our `manuscript
-  <http://genome.cshlp.org/content/early/2014/08/03/gr.174052.114.abstract>`_
-  describing Excision-seq is published in Genome Research. Congratulations
-  Suzi and Monica! [2014 Jul 1]
+| :fa:`fa-book` Our manuscript describing `Excision-seq
+  <http://www.rnajournal.org/cgi/pmidlookup?view=long&pmid=24919400>`_ is
+  published in Genome Research. [2014 Jul 1]
+
+| :fa:`fa-book` Our manuscript describing a new mode of `branched RNA
+  turnover
+  <http://www.rnajournal.org/cgi/pmidlookup?view=long&pmid=24919400>`_ is
+  published in RNA.  [2014 Apr 1]
 
