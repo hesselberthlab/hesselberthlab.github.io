@@ -23,7 +23,7 @@ enable dissection of the mutational process, and may yield insights into
 how hot spots of mutation form in the human genome. We are currently using
 Excision-seq to study uracilcation of HIV genomes during infection, and
 DNA demethylation by 5-methyl cytosine oxidation. We are also extending
-the method to characterize other types of DNA damage genomes, including
+the method to characterize other types of DNA damage in genomes, including
 sugar and phosphate modifications.
 
 :fa:`fa-flask fa-3x fa-border pull-left` **RNA healing and decay**. We
