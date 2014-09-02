@@ -29,7 +29,7 @@ PATH = 'content'
 
 THEME = 'hesselberth-theme'
 
-BOOTSTRAP_THEME = 'lavish'
+BOOTSTRAP_THEME = 'yeti_zissou'
 
 TIMEZONE = 'America/Denver'
 

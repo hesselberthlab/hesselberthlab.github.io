@@ -1,11 +1,7 @@
 Projects
 ########
 
-:date: Fri Aug 29 18:54:09 MDT 2014
-:author: Jay Hesselberth
-:summary: Current projects in the Hesselberth lab
-:category: Projects
-:tags: Projects
+:status: hidden
 
 We develop molecular methods that enable genomic discovery, leveraging advances
 in next-generation DNA sequencing and computational biology. 
