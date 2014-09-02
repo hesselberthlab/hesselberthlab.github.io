@@ -34,18 +34,24 @@ processing or decay. Moreover, competition between RNA repair and
 decay regulates an important cellular homeostasis pathway, suggesting that
 this regulation of RNA fate may be widespread.
 
-News :fa:`fa-exclamation`
+News :fa:`fa-newspaper-o`
 *************************
 
-+ Recruiting a new genomics faculty member in the Biochemistry and
+| :fa:`fa-bullhorn` Recruiting a new genomics faculty member in the Biochemistry and
   Molecular Genetics department `[link] <https://t.co/JkUp4oxUQj>`_. [2014
   Aug 31]
 
-+ Sally Peach passes her comprehensive exam. Huzzah! [2014 Aug 16]
+| :fa:`fa-birthday-cake` Sally Peach passes her comprehensive exam. Huzzah! [2014 Aug 16]
 
-+ Patrick Cherry joins the lab! [2014 Jul 1]
+| :fa:`fa-group` Jay, Sally and Suzi attended the GSA Yeast meeting in
+  Seattle.
 
-+ Our `manuscript
+| :fa:`fa-group` Jay gave a talk at the FASEB RNA Decay meeting in Big
+  Sky, MT
+
+| :fa:`fa-home` Patrick Cherry joins the lab! [2014 Jul 1]
+
+| :fa:`fa-book` Our `manuscript
   <http://genome.cshlp.org/content/early/2014/08/03/gr.174052.114.abstract>`_
   describing Excision-seq is published in Genome Research. Congratulations
   Suzi and Monica! [2014 Jul 1]
