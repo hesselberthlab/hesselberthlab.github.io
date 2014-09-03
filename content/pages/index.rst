@@ -18,13 +18,13 @@ to apply these methods as broadly as possible.
 mutation**. We are developing genome-scale methods for studying how DNA
 modifications lead to mutation. Our new `Exicision-seq method
 <http://www.ncbi.nlm.nih.gov/pubmed/25015380>`_ enables high resolution
-mapping of modified nucleobases throughout the genome. These methods
-enable dissection of the mutational process, and may yield insights into
-how hot spots of mutation form in the human genome. We are currently using
-Excision-seq to study uracilcation of HIV genomes during infection, and
-mammalian DNA demethylation. We are also extending the method to
-characterize other types of DNA damage in genomes, including sugar and
-phosphate modifications.
+mapping of modified nucleobases throughout the genome. We aim to use this
+method to dissect the mutational process, to understand how hot spots of
+mutation form in the human genome. We are currently using Excision-seq to
+study uracilcation of HIV genomes during infection, and mammalian DNA
+demethylation. We are also extending the method to characterize other
+types of DNA damage in genomes, including sugar and phosphate
+modifications.
 
 :fa:`fa-flask fa-3x fa-border pull-left` **RNA healing and decay**. We
 previously developed `methods
@@ -46,8 +46,8 @@ News :fa:`fa-newspaper-o`
 .. check news items with `make publish` to confirm they fit in 1 line on
 .. the page.
 
-| :fa:`fa-bullhorn` Recruiting a new genomics faculty member 
-  `[link] <https://t.co/JkUp4oxUQj>`_. [2014 Aug 31]
+| :fa:`fa-bullhorn` `Recruiting <https://t.co/JkUp4oxUQj>`_ a new genomics
+  faculty member [2014 Aug 31]
 
 | :fa:`fa-birthday-cake` Sally passed her comprehensive exam! [2014 Aug 16]
 
