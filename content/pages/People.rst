@@ -1,8 +1,8 @@
 People
 ######
 
-Current :fa:`fa-group`
-----------------------
+Current :fa:`fa-group fa-color-zissou`
+--------------------------------------
 
 Principal Investigator
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -15,7 +15,6 @@ Principal Investigator
    | **Likes:** Data, `coffee <http://flyingbaronroasters.com/>`_, BBQ,
                 `good beer <http://blackshirtbrewing.com>`_
    | **Dislikes:** Mayonnaise, cats
-   | **Interests**: Motivation of millenials
 
 Students
 ~~~~~~~~
@@ -82,8 +81,8 @@ Postdocs and PRAs
 
 -----------------------------------------------
 
-Former :fa:`fa-group`
----------------------
+Former :fa:`fa-group fa-color-zissou`
+-------------------------------------
 
 * Steve Garrey, PhD (postdoc 2010-2013)
 

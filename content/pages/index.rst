@@ -16,7 +16,7 @@ to apply these methods as broadly as possible.
 
 :fa:`fa-flask fa-3x fa-border fa-color-zissou pull-left` **DNA modification and
 mutation**. We are developing genome-scale methods for studying how DNA
-modifications lead to mutation. Our new `Exicision-seq method
+modifications lead to mutation. Our new `Excision-seq method
 <http://www.ncbi.nlm.nih.gov/pubmed/25015380>`_ enables high resolution
 mapping of modified nucleobases throughout the genome. We aim to use this
 method to dissect the mutational process, to understand how hot spots of
