@@ -12,15 +12,19 @@ Principal Investigator
 
    **Jay Hesselberth**
 
-   | **Likes:** Data, coffee, BBQ
-   | **Dislikes:** Mayonaise, cats
+   | **Likes:** Data, `coffee <http://flyingbaronroasters.com/>`_, BBQ,
+                `craft beer <http://blackshirtbrewing.com>`_
+   | **Dislikes:** Mayonnaise, cats
+   | **Interests**: Motivation of millenials
+   | **Life**: Morton IL ~~> Iowa City IA ~~> Austin TX ~~> Seattle WA
+               ~~> Denver CO
 
 Students
 ~~~~~~~~
 
 * Suzi Bryan
-* Sally Peach
 * Patrick Cherry
+* Sally Peach
 
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
@@ -39,7 +43,8 @@ Postdocs and PRAs
 
 -----------------------------------------------
 
-Former
-------
+Former :fa:`fa-group`
+---------------------
 
 * Steve Garrey, PhD (postdoc 2010-2013)
+
