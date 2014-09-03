@@ -7,6 +7,8 @@ SITENAME = u'Hesselberth Lab'
 GITHUB_USER = 'hesselberthlab'
 SITEURL = 'http://hesselberthlab.github.io'
 
+DEFAULT_DATE = 'fs'
+
 DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False

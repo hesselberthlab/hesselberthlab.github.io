@@ -38,6 +38,8 @@ may be widespread. We are currently developing new methods for identifying
 unhealed RNAs, and are applying this new collection of methods to identify
 RNAs subject to healing, repair and decay. 
 
+------------------------------------------------------------------------------
+
 News :fa:`fa-newspaper-o`
 *************************
 
@@ -70,4 +72,5 @@ News :fa:`fa-newspaper-o`
   globally map RNase L substrates is published in `NAR
   <http://www.ncbi.nlm.nih.gov/pubmed/24500209>`_ 
   [2014 Apr 1]
+
 
