@@ -19,15 +19,15 @@ PDF_GENERATOR = True
 
 MENUITEMS = (
     ('People <span class="fa fa-group"></span>', '/pages/people.html'),
-    ('Projects <span class="fa fa-coffee"></span>', '/pages/projects.html'),
     ('Publications <span class="fa fa-book"></span>', '/pages/publications.html'),
     ('Resources <span class="fa fa-archive"></span>', '/pages/resources.html'),
     ('Contact <span class="fa fa-envelope"></span>', '/pages/contact.html'),)
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
-    'pelican_fontawesome',
-    'better_figures_and_images',]
+    'pelican_fontawesome',]
+
+RESPONSIVE_IMAGES = True
 
 PATH = 'content'
 
@@ -51,8 +51,8 @@ LINKS = ( ('Genome Informatics Workshop','http://hesselberthlab.github.io/worksh
           'http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Hesselberth.aspx'),)
          
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/jayhesselberth'),
-          ('github', 'http://github.com/hesselberthlab'),)
+SOCIAL = ( ('github', 'http://github.com/hesselberthlab'),
+           ('twitter', 'http://twitter.com/jayhesselberth'),)
 
 DEFAULT_PAGINATION = False
 
