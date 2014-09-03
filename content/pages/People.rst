@@ -20,16 +20,57 @@ Principal Investigator
 Students
 ~~~~~~~~
 
-* Suzi Bryan
-* Patrick Cherry
-* Sally Peach
+.. figure:: 
+   :alt: Suzi Bryan
+
+   **Suzi Bryan**
+
+   | **Likes:**
+   | **Dislikes:**
+
+.. figure::
+   :alt: Patrick Cherry
+
+
+   **Patrick Cherry**
+
+   | **Likes:**
+   | **Dislikes:**
+
+.. figure:: 
+   :alt: Sally Peach
+
+   **Sally Peach**
+
+   | **Likes:**
+   | **Dislikes:**
 
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
-* Monty Prekeris
-* Monica Ransom, PhD
-* Austin Gillen, PhD
+.. figure:: 
+   :alt: Monty Prekeris
+
+   **Monty Prekeris**
+
+   | **Likes:**
+   | **Dislikes:**
+
+.. figure:: 
+   :alt: Monica Ransom, PhD
+
+   **Monica Ransom**
+
+   | **Likes:**
+   | **Dislikes:**
+
+.. figure::
+   :alt: Austin Gillen
+
+   **Austin Gillen**
+
+   | **Likes:**
+   | **Dislikes:**
 
 .. figure:: ../images/people/kerri.png
    :alt: Kerri York
