@@ -31,7 +31,6 @@ Students
 .. figure::
    :alt: Patrick Cherry
 
-
    **Patrick Cherry**
 
    | **Likes:**
@@ -48,6 +47,22 @@ Students
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
+.. figure::
+   :alt: Austin Gillen
+
+   **Austin Gillen PhD**
+
+   | **Likes:**
+   | **Dislikes:**
+
+.. figure:: 
+   :alt: Monica Ransom, PhD
+
+   **Monica Ransom PhD**
+
+   | **Likes:**
+   | **Dislikes:**
+
 .. figure:: 
    :alt: Monty Prekeris
 
@@ -56,21 +71,6 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: 
-   :alt: Monica Ransom, PhD
-
-   **Monica Ransom**
-
-   | **Likes:**
-   | **Dislikes:**
-
-.. figure::
-   :alt: Austin Gillen
-
-   **Austin Gillen**
-
-   | **Likes:**
-   | **Dislikes:**
 
 .. figure:: ../images/people/kerri.png
    :alt: Kerri York
