@@ -20,7 +20,7 @@ Principal Investigator
 Students
 ~~~~~~~~
 
-.. figure:: 
+.. figure:: ../images/people/resize_jay.png
    :alt: Suzi Bryan
 
    **Suzi Bryan**
@@ -28,7 +28,7 @@ Students
    | **Likes:**
    | **Dislikes:**
 
-.. figure::
+.. figure:: ../images/people/resize_jay.png
    :alt: Patrick Cherry
 
    **Patrick Cherry**
@@ -36,7 +36,7 @@ Students
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: 
+.. figure:: ../images/people/resize_jay.png
    :alt: Sally Peach
 
    **Sally Peach**
@@ -47,7 +47,7 @@ Students
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
-.. figure::
+.. figure:: ../images/people/resize_jay.png
    :alt: Austin Gillen
 
    **Austin Gillen PhD**
@@ -55,7 +55,7 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: 
+.. figure:: ../images/people/resize_jay.png
    :alt: Monica Ransom, PhD
 
    **Monica Ransom PhD**
@@ -63,7 +63,7 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: 
+.. figure:: ../images/people/resize_jay.png
    :alt: Monty Prekeris
 
    **Monty Prekeris**
