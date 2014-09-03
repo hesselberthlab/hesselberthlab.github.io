@@ -24,8 +24,10 @@ MENUITEMS = (
     ('Resources <span class="fa fa-archive"></span>', '/pages/resources.html'),
     ('Contact <span class="fa fa-envelope"></span>', '/pages/contact.html'),)
 
+PLUGIN_PATHS = ['plugins']
 PLUGINS = [
-    'pelican_fontawesome',]
+    'pelican_fontawesome',
+    'better_figures_and_images',]
 
 PATH = 'content'
 
