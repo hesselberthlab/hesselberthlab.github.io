@@ -13,11 +13,9 @@ Principal Investigator
    **Jay Hesselberth**
 
    | **Likes:** Data, `coffee <http://flyingbaronroasters.com/>`_, BBQ,
-                `craft beer <http://blackshirtbrewing.com>`_
+                `good beer <http://blackshirtbrewing.com>`_
    | **Dislikes:** Mayonnaise, cats
    | **Interests**: Motivation of millenials
-   | **Life**: Morton IL ~~> Iowa City IA ~~> Austin TX ~~> Seattle WA
-               ~~> Denver CO
 
 Students
 ~~~~~~~~
