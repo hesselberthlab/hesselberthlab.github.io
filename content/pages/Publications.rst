@@ -16,6 +16,8 @@ Primary :fa:`fa-bookmark-o`
     Hesselberth**. High-resolution mapping of modified nucleobases in DNA with
     excision repair enzymes (2014). In press, Genome Research.
 
+    + Comment in `GenomeWeb <http://t.co/kAb2T2znUP>`_
+
 *   Manoj M Pillai, Austin E. Gillen, Enos Kline, Joseph Brown, Kale
     Flory, **Jay R. Hesselberth** and Peter Kabos,, Genomewide analysis of
     miRNA-mRNA interactions in breast cancer. (2014) Breast Cancer Res
