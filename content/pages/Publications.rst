@@ -6,8 +6,8 @@ Publications
 :fa:`fa-plus-square` `ImpactStory
 <https://impactstory.org/JayHesselberth>`_
 
-Primary :fa:`fa-bookmark-o`
----------------------------
+Primary :fa:`fa-bookmark-o fa-color-zissou`
+-------------------------------------------
 
 2014
 ~~~~
@@ -15,6 +15,8 @@ Primary :fa:`fa-bookmark-o`
 *   Debra S. Bryan, Monica Ransom, Biniam Adane, Kerri York and **Jay R.
     Hesselberth**. High-resolution mapping of modified nucleobases in DNA with
     excision repair enzymes (2014). In press, Genome Research.
+
+    + Comment in `GenomeWeb <http://t.co/kAb2T2znUP>`_
 
 *   Manoj M Pillai, Austin E. Gillen, Enos Kline, Joseph Brown, Kale
     Flory, **Jay R. Hesselberth** and Peter Kabos,, Genomewide analysis of
@@ -120,8 +122,8 @@ Graduate (1997 - 2003)
     airway epithelia. (1998) Proc. Natl. Acad. Sci. 95:14961-66. PMCID:
     PMC24558
 
-Reviews :fa:`fa-bookmark-o`
----------------------------
+Reviews :fa:`fa-bookmark-o fa-color-zissou`
+-------------------------------------------
 
 *   **Hesselberth J. R.**, Lives that introns lead after splicing
     i) WIREs RNA Reviews 4:677-91
@@ -144,8 +146,8 @@ Reviews :fa:`fa-bookmark-o`
     Combinatorial methods: Aptamers and aptazymes. (1999) Proc. SPIE-Int. Soc.
     Opt. Eng. 3858:126-34.
 
-Patents :fa:`fa-bookmark-o`
----------------------------
+Patents :fa:`fa-bookmark-o fa-color-zissou`
+-------------------------------------------
 
 *   Regulatable, catalytically active nucleic acids (WO2001096559 A2)
 
