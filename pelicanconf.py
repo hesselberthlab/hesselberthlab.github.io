@@ -25,9 +25,13 @@ MENUITEMS = (
     ('Contact <span class="fa fa-envelope"></span>', '/pages/contact.html'),)
 
 PLUGIN_PATHS = ['plugins']
+
 PLUGINS = [
-    'pelican_fontawesome',
-    'better_figures_and_images',]
+    'pelican_fontawesome',]
+
+# PLUGINS = [
+#     'pelican_fontawesome',
+#     'better_figures_and_images',]
 
 RESPONSIVE_IMAGES = True
 
