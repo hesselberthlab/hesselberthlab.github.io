@@ -26,7 +26,8 @@ MENUITEMS = (
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
-    'pelican_fontawesome',]
+    'pelican_fontawesome',
+    'better_figures_and_images',]
 
 RESPONSIVE_IMAGES = True
 

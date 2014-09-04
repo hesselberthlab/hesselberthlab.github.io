@@ -7,7 +7,7 @@ Current :fa:`fa-group fa-color-zissou`
 Principal Investigator
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: ../images/people/jay.png
+.. figure:: {filename}/images/people/jay.png
    :alt: Jay Hesselberth
 
    **Jay Hesselberth**
@@ -19,7 +19,7 @@ Principal Investigator
 Students
 ~~~~~~~~
 
-.. figure:: ../images/people/suzi.png
+.. figure:: {filename}/images/people/suzi.png
    :alt: Suzi Bryan
 
    **Suzi Bryan**
@@ -27,7 +27,7 @@ Students
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: ../images/people/resize_jay.png
+.. figure:: {filename}/images/people/patrick.jpg
    :alt: Patrick Cherry
 
    **Patrick Cherry**
@@ -35,7 +35,7 @@ Students
    | **Likes:** 
    | **Dislikes:** 
 
-.. figure:: ../images/people/sally-money.png
+.. figure:: {filename}/images/people/sally-money.png
    :alt: Sally Peach
 
    **Sally Peach**
@@ -46,7 +46,7 @@ Students
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
-.. figure:: ../images/people/austin.png
+.. figure:: {filename}/images/people/austin.png
    :alt: Austin Gillen
 
    **Austin Gillen PhD**
@@ -54,7 +54,7 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: ../images/people/monica.png
+.. figure:: {filename}/images/people/monica.png
    :alt: Monica Ransom, PhD
 
    **Monica Ransom PhD**
@@ -62,7 +62,7 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: ../images/people/monty.png
+.. figure:: {filename}/images/people/monty.png
    :alt: Monty Prekeris
 
    **Monty Prekeris**
@@ -71,7 +71,7 @@ Postdocs and PRAs
    | **Dislikes:**
 
 
-.. figure:: ../images/people/kerri.png
+.. figure:: {filename}/images/people/kerri.png
    :alt: Kerri York
 
    **Kerri York**
