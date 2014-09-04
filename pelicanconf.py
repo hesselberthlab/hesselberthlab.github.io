@@ -21,6 +21,7 @@ MENUITEMS = (
     ('People <span class="fa fa-group"></span>', '/pages/people.html'),
     ('Publications <span class="fa fa-book"></span>', '/pages/publications.html'),
     ('Resources <span class="fa fa-archive"></span>', '/pages/resources.html'),
+    ('Photos <span class="fa fa-camera-retro"></span>', '/pages/photos.html'),
     ('Contact <span class="fa fa-envelope"></span>', '/pages/contact.html'),)
 
 PLUGIN_PATHS = ['plugins']

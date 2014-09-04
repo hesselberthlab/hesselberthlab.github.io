@@ -7,7 +7,7 @@ Current :fa:`fa-group fa-color-zissou`
 Principal Investigator
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: ../images/people/resize_jay.png
+.. figure:: ../images/people/jay.png
    :alt: Jay Hesselberth
 
    **Jay Hesselberth**
@@ -19,7 +19,7 @@ Principal Investigator
 Students
 ~~~~~~~~
 
-.. figure:: ../images/people/resize_jay.png
+.. figure:: ../images/people/suzi.png
    :alt: Suzi Bryan
 
    **Suzi Bryan**
@@ -32,21 +32,21 @@ Students
 
    **Patrick Cherry**
 
-   | **Likes:**
-   | **Dislikes:**
+   | **Likes:** 
+   | **Dislikes:** 
 
-.. figure:: ../images/people/resize_jay.png
+.. figure:: ../images/people/sally-money.png
    :alt: Sally Peach
 
    **Sally Peach**
 
-   | **Likes:**
-   | **Dislikes:**
+   | **Likes:** mountains & rocks, world adventures, real books, the youth
+   | **Dislikes:** peanuts, Wolf Parade, cats
 
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
-.. figure:: ../images/people/resize_jay.png
+.. figure:: ../images/people/austin.png
    :alt: Austin Gillen
 
    **Austin Gillen PhD**
@@ -54,7 +54,7 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: ../images/people/resize_jay.png
+.. figure:: ../images/people/monica.png
    :alt: Monica Ransom, PhD
 
    **Monica Ransom PhD**
@@ -62,7 +62,7 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-.. figure:: ../images/people/resize_jay.png
+.. figure:: ../images/people/monty.png
    :alt: Monty Prekeris
 
    **Monty Prekeris**
@@ -76,8 +76,9 @@ Postdocs and PRAs
 
    **Kerri York**
 
-   | **Likes:**
-   | **Dislikes:**
+   | **Likes:** Horses, Dogs, Cats, Yoga, 4wheeling, Football, and DNA/RNA
+     Gels
+   | **Dislikes:** Horror Movies, Traffic, and RNases
 
 -----------------------------------------------
 
