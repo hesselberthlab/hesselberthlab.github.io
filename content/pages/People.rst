@@ -16,6 +16,9 @@ Principal Investigator
                 `craft beer <http://blackshirtbrewingco.com>`_
    | **Dislikes:** Mayonnaise, cats
 
+.. html::
+   <br clear="all">
+
 Students
 ~~~~~~~~
 
@@ -42,6 +45,9 @@ Students
 
    | **Likes:** mountains & rocks, world adventures, real books, the youth
    | **Dislikes:** peanuts, Wolf Parade, cats
+
+.. html::
+   <br clear="all">
 
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
@@ -70,7 +76,6 @@ Postdocs and PRAs
    | **Likes:**
    | **Dislikes:**
 
-
 .. figure:: {filename}/images/people/kerri.png
    :alt: Kerri York
 
@@ -79,6 +84,9 @@ Postdocs and PRAs
    | **Likes:** Horses, Dogs, Cats, Yoga, 4wheeling, Football, and DNA/RNA
      Gels
    | **Dislikes:** Horror Movies, Traffic, and RNases
+
+.. html::
+   <br clear="all">
 
 -----------------------------------------------
 

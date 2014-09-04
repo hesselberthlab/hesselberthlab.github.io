@@ -164,7 +164,7 @@ figure.floatcenter, .align-center {
 
 /* content pasted from 
 http://duncanlock.net/blog/2013/05/29/better-figures-images-plugin-for-pelican/
-
+*/
 img {
     border: 1px solid #bbb;
     border-radius: 3px;
@@ -217,4 +217,3 @@ img.align-right {
 
     float: left;
 }
-*/

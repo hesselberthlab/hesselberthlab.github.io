@@ -24,14 +24,15 @@ MENUITEMS = (
     ('Photos <span class="fa fa-camera-retro"></span>', '/pages/photos.html'),
     ('Contact <span class="fa fa-envelope"></span>', '/pages/contact.html'),)
 
-PLUGIN_PATHS = ['plugins']
+PLUGIN_PATHS = ['../pelican-plugins']
+
+#PLUGINS = [
+#    'pelican_fontawesome',
+#    'html_rst_directive',]
 
 PLUGINS = [
-    'pelican_fontawesome',]
-
-# PLUGINS = [
-#     'pelican_fontawesome',
-#     'better_figures_and_images',]
+    'pelican_fontawesome',
+    'better_figures_and_images',]
 
 RESPONSIVE_IMAGES = True
 
