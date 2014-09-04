@@ -13,7 +13,7 @@ Principal Investigator
    **Jay Hesselberth**
 
    | **Likes:** Data, `coffee <http://flyingbaronroasters.com/>`_, BBQ,
-                `good beer <http://blackshirtbrewing.com>`_
+                `craft beer <http://blackshirtbrewingco.com>`_
    | **Dislikes:** Mayonnaise, cats
 
 Students

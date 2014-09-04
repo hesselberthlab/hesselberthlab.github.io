@@ -6,7 +6,7 @@ Publications
 :fa:`fa-plus-square` `ImpactStory
 <https://impactstory.org/JayHesselberth>`_
 
-Primary :fa:`fa-bookmark-o fa-color-zissou`
+Primary :fa:`fa-bookmark fa-color-zissou`
 -------------------------------------------
 
 2014
@@ -122,7 +122,7 @@ Graduate (1997 - 2003)
     airway epithelia. (1998) Proc. Natl. Acad. Sci. 95:14961-66. PMCID:
     PMC24558
 
-Reviews :fa:`fa-bookmark-o fa-color-zissou`
+Reviews :fa:`fa-bookmark fa-color-zissou`
 -------------------------------------------
 
 *   **Hesselberth J. R.**, Lives that introns lead after splicing
@@ -146,7 +146,7 @@ Reviews :fa:`fa-bookmark-o fa-color-zissou`
     Combinatorial methods: Aptamers and aptazymes. (1999) Proc. SPIE-Int. Soc.
     Opt. Eng. 3858:126-34.
 
-Patents :fa:`fa-bookmark-o fa-color-zissou`
+Patents :fa:`fa-bookmark fa-color-zissou`
 -------------------------------------------
 
 *   Regulatable, catalytically active nucleic acids (WO2001096559 A2)
