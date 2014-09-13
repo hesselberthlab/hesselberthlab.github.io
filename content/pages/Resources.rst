@@ -1,11 +1,6 @@
 Resources
 #########
 
-:date: Fri Aug 29 18:54:09 MDT 2014
-:author: Jay Hesselberth
-:category: Resources 
-:tags: Resources
-
 Funding :fa:`fa-usd fa-color-zissou`
 ------------------------------------
 

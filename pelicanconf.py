@@ -26,13 +26,13 @@ MENUITEMS = (
 
 PLUGIN_PATHS = ['../pelican-plugins']
 
-#PLUGINS = [
-#    'pelican_fontawesome',
-#    'html_rst_directive',]
-
 PLUGINS = [
     'pelican_fontawesome',
-    'better_figures_and_images',]
+    'better_figures_and_images',
+    'google_embed',
+    'html_rst_directive',]
+
+GMAPS_KEY='AIzaSyAAcCenPaxb3zFH3Gfv4uVMp3TnZg1CCh8'
 
 RESPONSIVE_IMAGES = True
 
