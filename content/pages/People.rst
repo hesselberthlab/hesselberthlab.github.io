@@ -15,4 +15,4 @@ Current :fa:`fa-group`
 Former
 ------
 
-   + Steve Garrey, PhD
++ Steve Garrey, PhD
