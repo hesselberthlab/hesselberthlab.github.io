@@ -80,8 +80,3 @@ Rotation students
 * Alicia Thorne 2011 spring
 * Biniam Adane 2011 fall
 * Seth Welsh 2010 spring
-
-<<<<<<< HEAD
-+ Steve Garrey, PhD
-=======
->>>>>>> 9363fe9d97cfbfc87edbb2fd50e5c6ace337e12f
