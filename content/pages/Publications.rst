@@ -3,18 +3,43 @@ Publications
 
 :fa:`fa-graduation-cap` `Google Scholar
 <http://scholar.google.com/citations?user=EnOmNEYAAAAJ&hl=en>`_
-:fa:`fa-plus-square` `ImpactStory
-<https://impactstory.org/JayHesselberth>`_
+:fa:`fa-plus-square` `My NCBI
+<http://goo.gl/Oe8DH0>`_
 
 Primary :fa:`fa-bookmark fa-color-zissou`
 -------------------------------------------
 
+2015
+~~~~
+*   K. Grabek, C Diniz Behn, G. Barsh, **J.R. Hesselberth**, S. L. Martin.
+    Enhanced stability and polyadenyl-ation of select mRNAs support rapid
+    thermogenesis in the brown fat of a hibernator. (2015) eLife.
+
+*   KC Chatfield. C R Coughlin II MW Friederich RC Gallagher, **J.R.
+    Hesselberth**, MA Lovell, M.D.; R Of-man, MA Swanson, JA Thomas, RJ Wanders,
+    EP Wartchow, Mitochondrial energy failure in HSD10 disease is due to
+    defective mtDNA transcript processing, (2015) Mitochondrion.
+
+*   K.D. Koh, Balachander, S., **Hesselberth, J.R.**, Storici F. Ribose-seq:
+    global mapping of ribonucleo-tides embedded in DNA. (2015) Nature Methods.
+
 2014
 ~~~~
 
+*   Daphne A. Cooper, Shuvojit Banerjee, Arindam Chakrabarti, Adolfo
+    García-Sastre, Jay R. Hessel-berth, Robert H. Silverman, and David J.
+    Barton. Ribonuclease L Targets Distinct Sites in Influenza A Virus RNAs.
+    (2014) J. Virology.
+
+*   Sara G. Kosmaczewski, Tyson J. Edwards, Sung Min Han, Matthew J.
+    Eckwahl, Benjamin Meyer, Sally Peach, **Jay R. Hesselberth**, Sandra L. Wolin,
+    Marc Hammarlund. The RtcB RNA ligase is an essential component of the
+    metazoan unfolded protein response (2014). EMBO Reports.15:1278-85 PMCID:
+    PMC4264930
+
 *   Debra S. Bryan, Monica Ransom, Biniam Adane, Kerri York and **Jay R.
     Hesselberth**. High-resolution mapping of modified nucleobases in DNA with
-    excision repair enzymes (2014). In press, Genome Research.
+    excision repair enzymes (2014) Genome Research. 
 
     + Comment in `GenomeWeb <http://t.co/kAb2T2znUP>`_
 

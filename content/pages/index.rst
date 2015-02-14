@@ -46,6 +46,9 @@ News :fa:`fa-newspaper-o fa-color-zissou`
 .. check news items with `make publish` to confirm they fit in 1 line on
 .. the page.
 
+| :fa:`fa-book` Several manuscripts published with Sandy Martin, Dave
+  Barton, Francesca Storici and Marc Hammarlund [2015 Feb 14]
+
 | :fa:`fa-bullhorn` `Recruiting <https://t.co/JkUp4oxUQj>`_ a new genomics
   faculty member [2014 Aug 31]
 
