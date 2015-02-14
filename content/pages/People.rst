@@ -27,16 +27,10 @@ Students
 
    **Suzi Bryan**
 
-   | **Likes:**
-   | **Dislikes:**
-
 .. figure:: {filename}/images/people/patrick.jpg
    :alt: Patrick Cherry
 
    **Patrick Cherry**
-
-   | **Likes:** 
-   | **Dislikes:** 
 
 .. figure:: {filename}/images/people/sally-money.png
    :alt: Sally Peach
@@ -52,38 +46,15 @@ Students
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
-.. figure:: {filename}/images/people/austin.png
-   :alt: Austin Gillen
-
-   **Austin Gillen PhD**
-
-   | **Likes:**
-   | **Dislikes:**
-
 .. figure:: {filename}/images/people/monica.png
    :alt: Monica Ransom, PhD
 
    **Monica Ransom PhD**
 
-   | **Likes:**
-   | **Dislikes:**
-
 .. figure:: {filename}/images/people/monty.png
    :alt: Monty Prekeris
 
    **Monty Prekeris**
-
-   | **Likes:**
-   | **Dislikes:**
-
-.. figure:: {filename}/images/people/kerri.png
-   :alt: Kerri York
-
-   **Kerri York**
-
-   | **Likes:** Horses, Dogs, Cats, Yoga, 4wheeling, Football, and DNA/RNA
-     Gels
-   | **Dislikes:** Horror Movies, Traffic, and RNases
 
 .. html::
    <br clear="all">
@@ -93,5 +64,20 @@ Postdocs and PRAs
 Former :fa:`fa-group fa-color-zissou`
 -------------------------------------
 
+PRAs
+~~~~
+* Kerri York (2010-2014)
+
+Postdocs
+~~~~~~~~
 * Steve Garrey, PhD (postdoc 2010-2013)
+* Austin Gillen, PhD (potdoc 2013-2014)
+
+Rotation students
+~~~~~~~~~~~~~~~~~
+* Sara Flubacher 2013 fall
+* Eric Nguyen 2012 summer
+* Alicia Thorne 2011 spring
+* Biniam Adane 2011 fall
+* Seth Welsh 2010 spring
 
