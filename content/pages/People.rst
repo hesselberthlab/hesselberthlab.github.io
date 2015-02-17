@@ -80,4 +80,3 @@ Rotation students
 * Alicia Thorne 2011 spring
 * Biniam Adane 2011 fall
 * Seth Welsh 2010 spring
-
