@@ -1,0 +1,3 @@
+pelican_fontawesome
+beautifulsoup4
+google-embed

@@ -27,6 +27,6 @@ USPS :fa:`fa-thumbs-down fa-color-zissou`
 
 ----------------------------------------------
 
-.. gmaps:: 12801 E 17TH AVE, Aurora CO 80045
-    :mode: place
-    :align: left
+.. .. gmaps:: 12801 E 17TH AVE, Aurora CO 80045
+..    :mode: place
+..    :align: left
