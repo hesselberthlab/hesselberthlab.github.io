@@ -50,6 +50,9 @@ News :fa:`fa-newspaper-o fa-color-zissou`
 .. check news items with `make publish` to confirm they fit in 1 line on
 .. the page.
 
+| :fa:`fa-bullhorn` Welcome to rotating students Laura White and Mandy Richer. 
+  [2015 Aug 30]
+
 | :fa:`fa-book` Several manuscripts published with Sandy Martin, Dave
   Barton, Francesca Storici and Marc Hammarlund [2015 Feb 14]
 

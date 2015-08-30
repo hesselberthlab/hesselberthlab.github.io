@@ -11,6 +11,16 @@ Primary :fa:`fa-bookmark fa-color-zissou`
 
 2015
 ~~~~
+
+*   Coordination between Drosophila Arc1 and a specific population of brain
+    neurons regulates organismal fat. Mosher J, Zhang W, Blumhagen RZ,
+    D'Alessandro A, Nemkov T, Hansen KC, **Hesselberth JR**, Reis T. Dev
+    Biol. 2015 Sep 15;405(2):280-90.
+
+*   Global analysis of RNA cleavage by 5'-hydroxyl RNA sequencing.
+    Peach SE, York K, **Hesselberth JR**.
+    Nucleic Acids Res. 2015 May 22. pii: gkv536
+
 *   K. Grabek, C Diniz Behn, G. Barsh, **J.R. Hesselberth**, S. L. Martin.
     Enhanced stability and polyadenyl-ation of select mRNAs support rapid
     thermogenesis in the brown fat of a hibernator. (2015) eLife.

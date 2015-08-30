@@ -24,7 +24,7 @@ MENUITEMS = (
     ('Photos <span class="fa fa-camera-retro"></span>', '/pages/photos.html'),
     ('Contact <span class="fa fa-envelope"></span>', '/pages/contact.html'),)
 
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 
 PLUGINS = [
     'pelican_fontawesome',

@@ -7,14 +7,7 @@ Current :fa:`fa-group fa-color-zissou`
 Principal Investigator
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: {filename}/images/people/jay.png
-   :alt: Jay Hesselberth
-
-   **Jay Hesselberth**
-
-   | **Likes:** Data, `coffee <http://flyingbaronroasters.com/>`_, BBQ,
-                `craft beer <http://blackshirtbrewingco.com>`_
-   | **Dislikes:** Mayonnaise, cats
+Jay Hesselberth <jay.hesselberth@gmail.com>
 
 .. html::
    <br clear="all">
@@ -22,23 +15,14 @@ Principal Investigator
 Students
 ~~~~~~~~
 
-.. figure:: {filename}/images/people/suzi.png
-   :alt: Suzi Bryan
+* Patrick Cherry
+* Sally Peach
 
-   **Suzi Bryan**
+Rotation students
+~~~~~~~~~~~~~~~~~~
 
-.. figure:: {filename}/images/people/patrick.jpg
-   :alt: Patrick Cherry
-
-   **Patrick Cherry**
-
-.. figure:: {filename}/images/people/sally-money.png
-   :alt: Sally Peach
-
-   **Sally Peach**
-
-   | **Likes:** mountains & rocks, world adventures, real books, the youth
-   | **Dislikes:** peanuts, Wolf Parade, cats
+* Laura White
+* Mandy Richer
 
 .. html::
    <br clear="all">
@@ -46,15 +30,9 @@ Students
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
-.. figure:: {filename}/images/people/monica.png
-   :alt: Monica Ransom, PhD
-
-   **Monica Ransom PhD**
-
-.. figure:: {filename}/images/people/monty.png
-   :alt: Monty Prekeris
-
-   **Monty Prekeris**
+* Erich Chapman, PhD (visiting)
+* Monica Ransom, PhD
+* Monty Prekeris
 
 .. html::
    <br clear="all">
@@ -73,10 +51,16 @@ Postdocs
 * Steve Garrey, PhD (postdoc 2010-2013)
 * Austin Gillen, PhD (potdoc 2013-2014)
 
-Rotation students
-~~~~~~~~~~~~~~~~~
-* Sara Flubacher 2013 fall
-* Eric Nguyen 2012 summer
-* Alicia Thorne 2011 spring
-* Biniam Adane 2011 fall
-* Seth Welsh 2010 spring
+Students
+~~~~~~~~
+* Suzi Bryan (2011-2015, currently at Illumina)
+
+Former Rotation students
+~~~~~~~~~~~~~~~~~~~~~~~~
+* Elijah Christensen
+* Abigail Armstrong
+* Sara Flubacher
+* Eric Nguyen 
+* Alicia Thorne
+* Biniam Adane 
+* Seth Welsh 
