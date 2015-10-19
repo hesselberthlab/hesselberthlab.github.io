@@ -2,12 +2,12 @@ Photos
 ######
 
 
-.. figure:: {filename}/images/lab/lab-photo-2014.png
-   :alt: Hesselberth lab (2014)
+.. figure:: {filename}/images/lab/lab-photo-2015.png
+   :alt: Hesselberth lab (2015)
    :scale: 60 %
 
-   **Hesselberth lab (2014)**
+   **Hesselberth lab (2016)**
 
-   | **Front:** Jay, Monica, Monty
-   | **Back:** Suzi, Patrick
+   | Patrick, Laura, Erich, Monica, Jay
+   | Missing: Sally, Mandy
 

@@ -38,7 +38,7 @@ RESPONSIVE_IMAGES = True
 
 PATH = 'content'
 
-THEME = 'hesselberth-theme'
+THEME = 'themes/hesselberth-theme'
 
 BOOTSTRAP_THEME = 'yeti_zissou'
 
