@@ -53,10 +53,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = ( ('Genome Analysis Workshop','http://hesselberthlab.github.io/workshop'),
+LINKS = ( ('Genome Analysis Workshop','http://molb7621.github.io/workshop'),
           ('University Webpage',
           'http://www.ucdenver.edu/academics/colleges/medicalschool/departments/biochemistry/Faculty/PrimaryFaculty/Pages/Hesselberth.aspx'),)
-         
+
 # Social widget
 SOCIAL = ( ('github', 'http://github.com/hesselberthlab'),
            ('twitter', 'http://twitter.com/jayhesselberth'),)
