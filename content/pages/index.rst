@@ -50,37 +50,8 @@ News :fa:`fa-newspaper-o fa-color-zissou`
 .. check news items with `make publish` to confirm they fit in 1 line on
 .. the page.
 
-| :fa:`fa-bullhorn` Welcome to rotating students Laura White and Mandy Richer. 
-  [2015 Aug 30]
-
-| :fa:`fa-book` Several manuscripts published with Sandy Martin, Dave
-  Barton, Francesca Storici and Marc Hammarlund [2015 Feb 14]
-
-| :fa:`fa-bullhorn` `Recruiting <https://t.co/JkUp4oxUQj>`_ a new genomics
-  faculty member [2014 Aug 31]
-
-| :fa:`fa-birthday-cake` Sally passed her comprehensive exam! [2014 Aug 16]
-
-| :fa:`fa-group` Jay, Sally and Suzi attended the GSA Yeast meeting in
-  Seattle. [2014 Jul 29]
-
-| :fa:`fa-group` Jay gave a talk at the FASEB RNA Decay meeting in Big
-  Sky, MT [2014 Jul 6]
-
-| :fa:`fa-home` Patrick Cherry joins the lab! [2014 Jul 1]
-
-| :fa:`fa-book` Our manuscript describing `Excision-seq
-  <http://www.ncbi.nlm.nih.gov/pubmed/25015380>`_ is
-  published in Genome Research. [2014 Jul 1]
-
-| :fa:`fa-book` Our manuscript describing a new mode of `branched RNA
-  turnover
-  <http://www.ncbi.nlm.nih.gov/pubmed/24919400>`_ is
-  published in RNA.  [2014 Apr 1]
-
-| :fa:`fa-book` Our study with Dave Barton and Daphne Cooper to
-  globally map RNase L substrates is published in `NAR
-  <http://www.ncbi.nlm.nih.gov/pubmed/24500209>`_ 
-  [2014 Apr 1]
-
+| :fa:`fa-bullhorn` The lab was awarded a MIRA grant from the NIH! [2016 Aug]
+| :fa:`fa-bullhorn` Mandy, Laura and Rachel join the lab! [2016 July]
+| :fa:`fa-bullhorn` Mandy Richer was awarded an NSF GRFP! [2016 Mar]
+| :fa:`fa-bullhorn` Congratulations Dr. Sally Peach! [2016 Apr 11]
 

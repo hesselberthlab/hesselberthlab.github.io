@@ -15,14 +15,13 @@ Jay Hesselberth <jay.hesselberth@gmail.com>
 Students
 ~~~~~~~~
 
+* Rachel Ancar
+* Laura White
+* Mandy Richer
 * Patrick Cherry
-* Sally Peach
 
 Rotation students
 ~~~~~~~~~~~~~~~~~~
-
-* Laura White
-* Mandy Richer
 
 .. html::
    <br clear="all">
@@ -30,9 +29,8 @@ Rotation students
 Postdocs and PRAs
 ~~~~~~~~~~~~~~~~~
 
-* Erich Chapman, PhD (visiting)
 * Monica Ransom, PhD
-* Monty Prekeris
+* Kent Riemondy, PhD
 
 .. html::
    <br clear="all">
@@ -44,19 +42,23 @@ Former :fa:`fa-group fa-color-zissou`
 
 PRAs
 ~~~~
+* Monty Prekeris
 * Kerri York (2010-2014)
 
 Postdocs
 ~~~~~~~~
+* Erich Chapman, PhD (visiting)
 * Steve Garrey, PhD (postdoc 2010-2013)
 * Austin Gillen, PhD (potdoc 2013-2014)
 
 Students
 ~~~~~~~~
+* Sally Peach (2012-2016, UC medical school)
 * Suzi Bryan (2011-2015, currently at Illumina)
 
 Former Rotation students
 ~~~~~~~~~~~~~~~~~~~~~~~~
+* Evan Lester
 * Elijah Christensen
 * Abigail Armstrong
 * Sara Flubacher
