@@ -50,6 +50,7 @@ News :fa:`fa-newspaper-o fa-color-zissou`
 .. check news items with `make publish` to confirm they fit in 1 line on
 .. the page.
 
+| :fa:`fa-bullhorn` Rachel received a Diversity Supplement from the NIH [2016 Nov]
 | :fa:`fa-bullhorn` The lab was awarded a MIRA grant from the NIH! [2016 Aug]
 | :fa:`fa-bullhorn` Mandy, Laura and Rachel join the lab! [2016 July]
 | :fa:`fa-bullhorn` Mandy Richer was awarded an NSF GRFP! [2016 Mar]
