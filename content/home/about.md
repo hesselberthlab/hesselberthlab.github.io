@@ -18,12 +18,12 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Postdoc in Genome Sciences"
+  course = "Postdoctoral fellow in Genome Sciences"
   institution = "University of Washington"
   year = 2009
 
 [[education.courses]]
-  course = "PhD in Chemistry and Biochemistry"
+  course = "Ph.D. in Chemistry and Biochemistry"
   institution = "University of Texas at Austin"
   year = 2003
   
@@ -34,7 +34,7 @@ weight = 1
  
 +++
 
-# Biography
+# Lab Overview
 
 My group develops new methods to understand how cells repair their genetic material.
 
