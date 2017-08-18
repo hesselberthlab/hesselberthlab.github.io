@@ -1,9 +1,11 @@
 baseurl = "http://hesselberthlab.org/"
-title = "Hesselberth Lab"
+title = "Jay Hesselberth Lab"
 copyright = "&copy; 2017 Jay R. Hesselberth"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -24,7 +26,7 @@ defaultContentLanguageInSubdir = false
   organization = "University of Colorado School of Medicine"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "logo.svg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jay.hesselberth@gmail.com"
   address = "RC1 South Room 10118, University of Colorado, Aurora CO, 80045, USA"
   office_hours = ""
