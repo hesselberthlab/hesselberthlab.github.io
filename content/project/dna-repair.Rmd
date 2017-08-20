@@ -6,9 +6,10 @@ slug: dna-repair
 categories: []
 tags:
   - Repair
+image_preview: "dna-hex.svg"
+header:
+  image: "dna-hex.svg"
 ---
-
-# DNA repair
 
 We develop methods to understand how DNA damage leads to mutation.
 

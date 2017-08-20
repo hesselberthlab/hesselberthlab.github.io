@@ -6,6 +6,7 @@ slug: rna-repair
 categories: []
 tags:
   - Repair
+image_preview: "rna-hex.svg"
 ---
 
 # RNA repair
