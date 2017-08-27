@@ -12,11 +12,11 @@ image_preview = "hex/rna-hex.svg"
 
 We use genetics, biochemistry and cell biology to understand how and why cells repair RNA transcripts. 
 
-## tRNA splicing
+## tRNA splicing <img style="float: right;" src="/img/figure/trna-block.svg">
 
 We exploited a previously developed strategy to bypass the essential function of RNA repair enzymes in budding yeast. Cells that express "pre-spliced" tRNAs are viable in the absence of the tRNA ligase and 2´-phosphotransferase. We are using these cells to understand tRNA processing and translational fidelity.
 
-## Unfolded protein response
+## Unfolded protein response  <img style="float: right;" src="/img/figure/upr.svg">
 
 The unfolded protein reponse (UPR) is a conserved pathway that increases the protein folding capacity of the endoplasmic reticulum during periods of protein folding stress. In budding yeast, the UPR is activated by the transmembrane kinase/endoribonucuelase Ire1, which liberates an intron from the *HAC1* pre-mRNA. Ligation of the exons leads to translation of the Hac1 transcription factor, which moves to the nucleus and upregulates hundreds of stress-reponse genes.
 
