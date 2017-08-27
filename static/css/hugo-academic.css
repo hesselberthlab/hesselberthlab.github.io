@@ -255,15 +255,14 @@ blockquote p:last-child {
 }
 
 #profile .portrait {
-  background-image: url('../img/portrait.jpg');
-  background-repeat: no-repeat;
-  width: 475px;
-  height: 275px;
-  /* margin: 0 auto; */
-/*  border-radius: 50%; */
-  /*background-size: cover; */
-  /* -webkit-background-size: cover; */
-  /* -moz-background-size: cover; */
+  background-image: url('../img/people/jay.png');
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
 }
 
 #profile .portrait-title h2 {
