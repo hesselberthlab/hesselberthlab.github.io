@@ -16,3 +16,4 @@ autolink = true
 
 +++
 
+<img src="/img/logo.svg" float="center;" />
