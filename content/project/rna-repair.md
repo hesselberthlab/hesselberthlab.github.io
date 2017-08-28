@@ -26,6 +26,10 @@ Using the RNA repair mutants, we uncovered new regulatory points during *HAC1* s
 
 We are conducting targeted and genome-wide searches for other targets of RNA repair. Such studies could provide new insights into the role of RNA repair in cellular physiology.
 
+## RNA-seq methods to study RNA repair
+
+We previously developed methods to capture 2´,3´-cyclic phosphate and 5´-OH products of RNA decay and have used these broadly to study spontaneous and enzyme-catalyzed RNA cleavage.
+
 ## Funding
 
 This work is funded by an NIH MIRA grant (R35 GM119550).
