@@ -13,11 +13,9 @@ image_preview = "hex/dna-hex.svg"
 
 We develop methods to understand how DNA damage leads to mutation. We previously developed [Excision-seq](#excision-seq) and [Ribose-seq](#ribose-seq) to measure DNA nucleobase and sugar modification with single-nucleotide resolution.
 
-We are developing a new method called [Haircut](#haircut) that is able to measure DNA repair capacity in bulk and single-cell extracts. 
+## Single-cell analysis of DNA repair capacity
 
-## New methods to measure DNA repair capacity
-
-## How does DNA damage lead to mutation?
+We are developing a new method that is able to measure DNA repair capacity in bulk and single-cell extracts. Will apply the method to understand how heterogeneity in DNA repair capacity contributes to resistance to cancer chemotherapy.
 
 ## Funding
 
