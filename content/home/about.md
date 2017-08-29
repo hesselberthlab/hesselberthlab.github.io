@@ -21,17 +21,14 @@ weight = 1
 [[education.courses]]
   course = "Postdoctoral fellow in Genome Sciences"
   institution = "University of Washington"
-  year = 2009
 
 [[education.courses]]
   course = "Ph.D. in Chemistry and Biochemistry"
   institution = "University of Texas at Austin"
-  year = 2003
   
 [[education.courses]]
   course = "B.S. in Biochemistry"
   institution = "University of Iowa"
-  year = 1998
  
 +++
 
