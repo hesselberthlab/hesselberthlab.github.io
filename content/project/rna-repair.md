@@ -1,7 +1,7 @@
 +++
 title = "RNA Repair"
 author = "Jay Hesselberth"
-tags = ["repair"]
+tags = ["RNA repair"]
 date = '2017-08-18'
 slug = "rna-repair"
 image_preview = "hex/rna-hex.svg"

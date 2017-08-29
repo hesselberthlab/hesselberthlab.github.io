@@ -2,7 +2,7 @@
 title = "DNA Repair"
 date = "2017-08-18"
 slug = "dna-repair"
-tags = ["repair"]
+tags = ["DNA repair"]
 
 image_preview = "hex/dna-hex.svg"
 
