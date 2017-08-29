@@ -23,7 +23,7 @@ We previously developed [Excision-seq](/publication/2014/bryan) to study the gen
 
 ## Ribose-seq 
 
-We developed [Ribose-seq](#/publication/2015/koh) in collaboration with [Francesca Storici's group]() to study the distribution of embedded ribonucleotides in DNA.
+We developed [Ribose-seq](/publication/2015/koh) in collaboration with [Francesca Storici's group]() to study the distribution of embedded ribonucleotides in DNA.
 
 
 ## Funding
