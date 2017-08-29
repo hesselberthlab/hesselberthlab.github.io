@@ -6,11 +6,20 @@ date = '2017-08-18'
 slug = "rna-repair"
 image_preview = "hex/rna-hex.svg"
 
+summary = "How and why do cells repair RNA transcripts?"
+
 [header]
   image = "hex/rna-hex.svg"
 +++
 
-We use genetics, biochemistry and cell biology to understand how and why cells repair RNA transcripts. 
+## What is RNA repair?
+
+RNA repair involves three sequential actvities:
+
+1. Spontaneous or enzyme-catalyzed RNA cleavage
+2. Remodeling of new RNA termini by RNA end modifying enzymes.
+3. Rejoining of the broken ends by an RNA ligase.
+
 
 ## tRNA splicing <img style="float: right;" src="/img/figure/trna-block.svg">
 
@@ -22,13 +31,16 @@ The unfolded protein reponse (UPR) is a conserved pathway that increases the pro
 
 Using the RNA repair mutants, we uncovered new regulatory points during *HAC1* splicing in the unfolded protein response. 
 
+## Remodeling and sensing of RNA termini
+
+
 ## New substrates of RNA repair
 
 We are conducting targeted and genome-wide searches for other targets of RNA repair. Such studies could provide new insights into the role of RNA repair in cellular physiology.
 
 ## RNA-seq methods to study RNA repair
 
-We previously developed methods to capture 2´,3´-cyclic phosphate and 5´-OH products of RNA decay and have used these broadly to study spontaneous and enzyme-catalyzed RNA cleavage.
+We previously developed methods to capture [2´,3´-cyclic phosphate](/publication/2010/Schutz) and [5´-OH](/publication/2015/Peach) products of RNA decay and have used these broadly to study spontaneous and enzyme-catalyzed RNA cleavage.
 
 ## Funding
 

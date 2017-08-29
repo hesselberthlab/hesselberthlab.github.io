@@ -6,6 +6,8 @@ slug = "software"
 tags = ["software"]
 image_preview = "/hex/genomics-hex.svg"
 
+summary = "Tools to enable analysis and visualization of large-scale biological data sets."
+
 [header]
   image = "hex/genomics-hex.svg"
 +++
