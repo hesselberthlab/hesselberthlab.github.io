@@ -12,17 +12,15 @@ summary = "How and why do cells repair RNA transcripts?"
   image = "hex/rna-hex.svg"
 +++
 
-## What is RNA repair?
-
-<img src="/img/figure/rna-repair.svg" />
-
 RNA repair involves three sequential actvities:
 
-1. Spontaneous or enzyme-catalyzed RNA cleavage ("damage")
+1. Spontaneous or enzyme-catalyzed RNA cleavage ("damage").
 2. Remodeling of new RNA termini by RNA end modifying enzymes ("healing").
 3. Rejoining of the broken ends by an RNA ligase ("sealing").
 
-RNA repair catalyzes rejoining of RNA transcript fragments during [tRNA splicing](#trna-splicing) and a unique mRNA processing event that regulates the [unfolded protein response](#unfolded-protein-response). But there are hints that RNA repair may play a bigger role in gene expression. For example, many proteins of unknown function tend to co-evolve with [RNA repair genes](https://www.ncbi.nlm.nih.gov/pubmed/27536007). And there are suggestions that [damaged ribosomes can be repaired](https://www.ncbi.nlm.nih.gov/pubmed/27789694), presumably to mitigate the cost of building a new ribosome.
+<img src="/img/figure/rna-repair.svg" />
+
+RNA repair catalyzes rejoining of RNA fragments generated during [tRNA splicing](#trna-splicing) and a unique mRNA processing event that regulates the [unfolded protein response](#unfolded-protein-response). There are hints that RNA repair may play a bigger role in gene expression. For example, many proteins of unknown function tend to co-evolve with [RNA repair genes](https://www.ncbi.nlm.nih.gov/pubmed/27536007). And there are suggestions that [damaged ribosomes can be repaired](https://www.ncbi.nlm.nih.gov/pubmed/27789694), presumably to mitigate the cost of building a new ribosome.
 
 We are broadly interested in understanding how cells use RNA repair to remodel the transcriptome.
 
@@ -46,7 +44,7 @@ We are conducting targeted and genome-wide searches for other targets of RNA rep
 
 ## RNA-seq methods to study RNA repair
 
-We previously developed methods to capture [2´,3´-cyclic phosphate](/publication/2010/Schutz) and [5´-OH](/publication/2015/Peach) products of RNA decay and have used these broadly to study spontaneous and enzyme-catalyzed RNA cleavage.
+We previously developed methods to capture the [2´,3´-cyclic phosphate](/publication/2010/Schutz) and [5´-OH](/publication/2015/Peach) products of RNA decay and have used these broadly to study spontaneous and enzyme-catalyzed RNA cleavage.
 
 ## Funding
 
