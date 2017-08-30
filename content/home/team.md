@@ -25,7 +25,7 @@ bio = """Hometown: Cheyenne, WY"""
 img = "people/shannon.png"
 name = "Shannon Walsh, Ph.D."
 position = "Postdoctoral fellow"
-bio = """Hometown: Upstate, NY"""
+bio = """Hometown: Johnstown, NY"""
 
 [[team.members]]
 img = "people/kent.png"
@@ -37,7 +37,7 @@ bio = """Hometown: Las Vegas, NV"""
 img = "people/austin.png"
 name = "Austin Gillen, Ph.D."
 position = "RBI Informatics Fellow"
-bio = """Hometown: ???"""
+bio = """Hometown: Kelso, WA"""
 
 [[team.members]]
 img = "people/patrick.png"
@@ -61,5 +61,5 @@ bio = """Hometown: Atlanta, GA"""
 img = "people/mandy.png"
 name = "Mandy Richer"
 position = "Graduate Student"
-bio = """Hometown: Lake Charles, IL"""
+bio = """Hometown: St. Charles, IL"""
 +++
