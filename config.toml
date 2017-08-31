@@ -1,4 +1,4 @@
-baseurl = "http://hesselberthlab.org/"
+baseurl = "https://hesselberthlab.org/"
 title = "Jay Hesselberth Lab"
 copyright = "&copy; 2017 Jay R. Hesselberth"
 theme = "hugo-academic"
@@ -89,7 +89,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["site.css"]
   custom_js  = []
 
   # Publication types.
