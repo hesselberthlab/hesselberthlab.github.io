@@ -39,6 +39,12 @@ figcaption {
   counter-increment: captions;
 }
 
+.article-banner {
+  float: right;
+  width: 10%;
+  height: auto;
+}
+
 pre,
 code {
   font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
