@@ -48,4 +48,4 @@ We previously developed methods to capture the [2´,3´-cyclic phosphate](/publi
 
 ## Funding
 
-This work is funded by an NIH MIRA grant (R35 GM119550).
+This work is funded by an NIH MIRA grant ([R35 GM119550](https://projectreporter.nih.gov/project_info_description.cfm?aid=9322528&icde=35801054&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball=)).
