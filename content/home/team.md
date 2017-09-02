@@ -55,7 +55,7 @@ bio = """Hometown: Denver, CO"""
 img = "people/laura.png"
 name = "Laura White"
 position = "Graduate Student"
-bio = """Hometown: Atlanta, GA"""
+bio = """Hometown: Ellicott City, MD"""
 
 [[team.members]]
 img = "people/mandy.png"
