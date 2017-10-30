@@ -11,7 +11,7 @@ weight = 39
 [[team.members]]
 img = "people/jay.png"
 name = "Jay Hesselberth"
-position = "PI"
+position = "Principal Investigator"
 # For bio markdown and even multiline strings are available.
 bio = """Jay grew up in the verdant Midwest detasseling corn and baling hay."""
 
@@ -43,23 +43,27 @@ bio = """Hometown: Kelso, WA"""
 img = "people/patrick.png"
 name = "Patrick Cherry"
 position = "Graduate Student"
+support = "RNA Bioscience Initiative Scholar"
 bio = """Hometown: New Orleans, LA"""
 
 [[team.members]]
 img = "people/rachel.png"
 name = "Rachel Ancar"
 position = "Graduate Student"
+support = "NIH R35 Supplement"
 bio = """Hometown: Denver, CO"""
 
 [[team.members]]
 img = "people/laura.png"
 name = "Laura White"
 position = "Graduate Student"
+support = "NIH Molecular Biology T32"
 bio = """Hometown: Ellicott City, MD"""
 
 [[team.members]]
 img = "people/mandy.png"
 name = "Mandy Richer"
 position = "Graduate Student"
+support = "NSF Graduate Research Fellowship"
 bio = """Hometown: St. Charles, IL"""
 +++

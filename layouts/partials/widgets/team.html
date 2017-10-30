@@ -36,6 +36,10 @@
           {{ end }}
         </ul>
 
+        {{ with .support }}
+        <h5>{{ . | markdownify }}</h5>
+        {{ end }}
+        
         {{ with .bio }}
         <p class="team-bio">{{ . | markdownify }}</p>
         {{ end }}
