@@ -14,7 +14,8 @@ widget = "publications_selected"
 weight = 10
   
 # Show publication details (such as abstract)? (true/false)
-detailed_list = false
-  
+detailed_list = true
+
+list_format = 2 
 +++
     

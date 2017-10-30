@@ -135,6 +135,11 @@ defaultContentLanguageInSubdir = false
     icon = "twitter"
     icon_pack = "fa"
     link = "//twitter.com/jayhesselberth"
+    
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "//orcid.org/0000-0002-6299-179X"
 
   [[params.social]]
     icon = "google-scholar"
