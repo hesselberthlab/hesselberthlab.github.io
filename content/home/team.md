@@ -40,6 +40,12 @@ position = "RBI Informatics Fellow"
 bio = """Hometown: Kelso, WA"""
 
 [[team.members]]
+img = "people/rui.png"
+name = "Rui Fu, Ph.D."
+position = "RBI Informatics Fellow"
+# bio = """Hometown: """
+
+[[team.members]]
 img = "people/patrick.png"
 name = "Patrick Cherry"
 position = "Graduate Student"
