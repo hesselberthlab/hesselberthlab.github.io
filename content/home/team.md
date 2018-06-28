@@ -49,7 +49,7 @@ position = "RBI Informatics Fellow"
 img = "people/patrick.png"
 name = "Patrick Cherry"
 position = "Graduate Student"
-support = "RNA Bioscience Initiative Scholar"
+support = "Molecular Biology Program Bolie Award"
 bio = """Hometown: New Orleans, LA"""
 
 [[team.members]]
@@ -63,7 +63,7 @@ bio = """Hometown: Denver, CO"""
 img = "people/laura.png"
 name = "Laura White"
 position = "Graduate Student"
-support = "NIH Molecular Biology T32"
+support = "RNA Bioscience Initiative Scholar"
 bio = """Hometown: Ellicott City, MD"""
 
 [[team.members]]
