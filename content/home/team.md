@@ -15,11 +15,11 @@ position = "Principal Investigator"
 # For bio markdown and even multiline strings are available.
 bio = """Jay grew up in the verdant Midwest detasseling corn and baling hay."""
 
-[[team.members]]
-img = "people/monica.png"
-name = "Monica Ransom, Ph.D."
-position = "Lab Manager"
-bio = """Hometown: Cheyenne, WY"""
+#[[team.members]]
+#img = "people/monica.png"
+#name = "Monica Ransom, Ph.D."
+#position = "Lab Manager"
+#bio = """Hometown: Cheyenne, WY"""
 
 [[team.members]]
 img = "people/shannon.png"

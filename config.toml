@@ -17,6 +17,8 @@ googleAnalytics = "UA-54095998-1"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+color_theme = "forest"
+
 [blackfriday]
   hrefTargetBlank = true
   hardLineBreak = true

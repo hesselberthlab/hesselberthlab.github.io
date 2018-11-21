@@ -7,7 +7,7 @@ image_preview = ""
 math = true
 publication_types = ["2"]
 publication = "Genome Research"
-selected = true
+# selected = true
 title = "High resolution mapping of modified nucleobases in DNA using excision repair enzymes"
 url_code = "https://github.com/hesselberthlab/modmap"
 url_dataset = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51361"
