@@ -18,11 +18,11 @@ organizations:
   url: "cuanschutz.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: We are an RNA biology and technology development lab. 
+# bio: We are an RNA biology and technology development lab. 
 
-interests:
-- RNA damage and repair 
-- Single-cell technology development
+#interests:
+#- RNA damage and repair 
+#- Single-cell technology development
 
 education:
   courses:
@@ -67,9 +67,3 @@ email: ""
 user_groups:
 - Principal Investigator
 ---
-
-# Lab Overview
-
-My group focuses on understanding how and why cells repair their genetic material. We use genetics, biochemistry, and cell biology to study why cells repair RNA transcipts. We also develop next-generation technologies to analyze how cells catalyze DNA repair and how DNA repair capacity changes in disease.
-
-Our lab is in the [RNA Bioscience Initiative](http://rnabio.co) at the University of Colorado School of Medicine.

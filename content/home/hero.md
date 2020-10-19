@@ -51,4 +51,4 @@ hero_media = "logo-invert.png"
   label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-We are an RNA Biology and technolology development lab at the [University of Colorado Anschutz Medical Campus](cuanschutz.edu).
+We are an RNA biology and technology development lab at the [University of Colorado Anschutz Medical Campus](https://cuanschutz.edu).

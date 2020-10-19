@@ -3,7 +3,7 @@
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 12  # Order that this section will appear.
 
 title = "Single-cell technology development"
 
@@ -24,14 +24,14 @@ title = "Single-cell technology development"
   # gradient_end = "#2b94c3"
   
   # Background image.
-  # image = "droplets.png"  # Name of image in `static/img/`.
-  # image_darken = 0.9  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "droplets.png"  # Name of image in `static/img/`.
+  image_darken = 0.7  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   # image_position = "center"  # Options include `left`, `center` (default), or `right`.
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = false
+  text_color_light = true
 
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
@@ -48,7 +48,9 @@ title = "Single-cell technology development"
 
 # Note. An optional note to show underneath the links.
 #[cta_note]
-  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+#  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
 +++
 
-Like DNA repair systems that surveil and repair genome damage to preserve the genetic code, the products of RNA damage are substrates for coupled end modification and processing steps. But unlike our deep under-standing of the DNA damage response, we are only beginning to learn how RNA damage, end modification, and processing are integrated in the RNA damage response to orchestrate RNA processing for regulatory control. 
+We develop new molecular and computational approaches to advance single-cell analysis including approaches to measure
+biochemical activities, to understand molecular dissemination *in vivo*, and to improve the analysis of cell-type-specific gene
+expression patterns.
