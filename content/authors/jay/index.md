@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jay Hesselberth 
+name: Jay Hesselberth, PhD 
 
 # Username (this should match the folder name)
 authors:
@@ -24,17 +24,17 @@ organizations:
 #- RNA damage and repair 
 #- Single-cell technology development
 
-education:
-  courses:
-  - course: PhD in Chemistry and Biochemistry 
-    institution: University of Texas at Austin
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+#education:
+#  courses:
+#  - course: PhD in Chemistry and Biochemistry 
+#    institution: University of Texas at Austin
+#    year: 2012
+#  - course: MEng in Artificial Intelligence
+#    institution: Massachusetts Institute of Technology
+#    year: 2009
+#  - course: BSc in Artificial Intelligence
+#    institution: Massachusetts Institute of Technology
+#    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

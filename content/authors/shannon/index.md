@@ -1,13 +1,11 @@
 ---
 # Display name
-name: Kent Riemondy, PhD
+name: Shannon Walsh, PhD
 
 # Username (this should match the folder name)
 authors:
-- Kent
-
-role: RNA Bioscience Initiative
+- Shannon 
 
 user_groups:
-- Research Scientists 
+- Postdoctoral Fellows
 ---
