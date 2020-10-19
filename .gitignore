@@ -6,3 +6,5 @@
 *.html
 *.swp
 .DS_Store
+resources
+public

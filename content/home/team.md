@@ -1,75 +1,57 @@
 +++
-# Team widget
-widget = "team"
-# Possibility to center items
-center = true
-title = "Team"
+# A "Meet the Team" section created with the People widget.
+# This section displays people from `content/authors/` which belong to the `user_groups` below.
+
+widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true # Activate this widget? true/false
+weight = 30 # Order that this section will appear.
+
+title = "Lab Members"
 subtitle = ""
-description = ""
-weight = 39
 
-[[team.members]]
-img = "people/jay.png"
-name = "Jay Hesselberth"
-position = "Principal Investigator"
-# For bio markdown and even multiline strings are available.
-bio = """Jay grew up in the verdant Midwest detasseling corn and baling hay."""
+[content]
+  # Choose which groups/teams of users to display.
+  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+  user_groups = ["Principal Investigator",
+                 "Research Scientists",
+                 "Graduate Students",
+                 "Postdoctoral Fellows",
+                 "Research Assistants",
+                 "Undergraduates",
+                 ]
 
-#[[team.members]]
-#img = "people/monica.png"
-#name = "Monica Ransom, Ph.D."
-#position = "Lab Manager"
-#bio = """Hometown: Cheyenne, WY"""
+[design]
+  # Show user's social networking links? (true/false)
+  show_social = true
 
-[[team.members]]
-img = "people/shannon.png"
-name = "Shannon Walsh, Ph.D."
-position = "Postdoctoral fellow"
-bio = """Hometown: Johnstown, NY"""
+  # Show user's interests? (true/false)
+  show_interests = true
 
-[[team.members]]
-img = "people/kent.png"
-name = "Kent Riemondy, Ph.D."
-position = "RBI Informatics Fellow"
-bio = """Hometown: Las Vegas, NV"""
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+  
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+  
+  # Background image.
+  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
-[[team.members]]
-img = "people/austin.png"
-name = "Austin Gillen, Ph.D."
-position = "RBI Informatics Fellow"
-bio = """Hometown: Kelso, WA"""
-
-[[team.members]]
-img = "people/rui.png"
-name = "Rui Fu, Ph.D."
-position = "RBI Informatics Fellow"
-# bio = """Hometown: """
-
-[[team.members]]
-img = "people/patrick.png"
-name = "Patrick Cherry"
-position = "Graduate Student"
-support = "Molecular Biology Program Bolie Award"
-bio = """Hometown: New Orleans, LA"""
-
-[[team.members]]
-img = "people/rachel.png"
-name = "Rachel Ancar"
-position = "Graduate Student"
-support = "NIH R35 Supplement"
-bio = """Hometown: Denver, CO"""
-
-[[team.members]]
-img = "people/laura.png"
-name = "Laura White"
-position = "Graduate Student"
-support = "RNA Bioscience Initiative Scholar"
-bio = """Hometown: Ellicott City, MD"""
-
-[[team.members]]
-img = "people/mandy.png"
-name = "Mandy Richer"
-position = "Graduate Student"
-support = "NSF Graduate Research Fellowship"
-bio = """Hometown: St. Charles, IL"""
+  # Text color (true=light or false=dark).
+  text_color_light = true 
+  
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
 +++

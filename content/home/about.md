@@ -1,39 +1,14 @@
 +++
-# About/Biography widget.
+# About widget.
+widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = false # Activate this widget? true/false
+weight = 20  # Order that this section will appear in.
 
-date = "2017-08-17"
-draft = false
+title = "Lab Overview"
 
-widget = "about"
-
-# Order that this section will appear in.
-weight = 1
-
-# List your academic interests.
-[interests]
-  interests = [
-    "Nucleic acid repair",
-    "Molecular technologies",
-    "Bioinformatics"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "Postdoctoral fellow in Genome Sciences"
-  institution = "University of Washington"
-
-[[education.courses]]
-  course = "Ph.D. in Chemistry and Biochemistry"
-  institution = "University of Texas at Austin"
-  
-[[education.courses]]
-  course = "B.S. in Biochemistry"
-  institution = "University of Iowa"
- 
+# Choose the user profile to display
+# This should be the username of a profile in your `content/authors/` folder.
+# See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
+author = "jay"
 +++
-
-# Lab Overview
-
-My group focuses on understanding how and why cells repair their genetic material. We use genetics, biochemistry, and cell biology to study why cells repair RNA transcipts. We also develop next-generation technologies to analyze how cells catalyze DNA repair and how DNA repair capacity changes in disease.
-
-Our lab is in the [RNA Bioscience Initiative](http://rnabio.co) at the University of Colorado School of Medicine.
