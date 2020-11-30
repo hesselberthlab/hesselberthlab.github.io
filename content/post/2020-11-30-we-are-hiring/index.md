@@ -1,5 +1,5 @@
 ---
-title: we-are-hiring
+title: Open positions in single-cell tech dev 
 author: ~
 date: '2020-11-30'
 slug: []
@@ -19,7 +19,7 @@ projects: []
 
 We are hiring [postdoctoral research associates](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=19349&lang=en) and [professional research assistants](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=19600&lang=en) to support our work in single-cell technology development.
 
-Wed lab recently developed two new single-cell approaches to measure biochemical activities in single cells (https://pubmed.ncbi.nlm.nih.gov/32286626/) and to track DNA conjugates through tissues (https://www.biorxiv.org/content/10.1101/2020.08.19.219527v1). We now plan to deploy these methods broadly and also develop companion technologies. A Professional Research Assistant will focus on their development and application and will focus on the following projects:
+Wed lab recently developed two new single-cell approaches to [measure biochemical activities in single cells](https://pubmed.ncbi.nlm.nih.gov/32286626/) and to [track DNA conjugates through tissues](https://www.biorxiv.org/content/10.1101/2020.08.19.219527v1). We now plan to deploy these methods broadly and also develop companion technologies. A Professional Research Assistant will focus on their development and application and will focus on the following projects:
 
 - Developing of new single-cell biochemical methods to enable CRISPR and small molecule inhibitor screens
 - Integrating single cell biochemistry data with single cell RNA-seq
